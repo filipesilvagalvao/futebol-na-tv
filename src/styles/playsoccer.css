@@ -25,6 +25,8 @@
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
+    position: relative;
+    gap: 40px;
 }
 .match div{
     display: flex;
@@ -40,4 +42,9 @@
 .match img{
     width: auto;
     height: 40px;
+}
+.match h3{
+    font-size: 0.8rem;
+    position: absolute;
+    top: 40px;
 }

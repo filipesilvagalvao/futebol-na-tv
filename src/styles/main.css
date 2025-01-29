@@ -1,0 +1,89 @@
+main{
+    padding: 28px 8%;
+    color: #f0ffff;
+}
+
+#content-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid-articles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.category-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    text-align: center;
+    margin-top: 30px;
+}
+.category-contents h2{
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+}
+
+#item-grid-1{
+    background-image: url(/src/images/todos-os-canais.png);
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+}
+#item-grid-2{
+    background-image: url(/src/images/canais-abertos.png);
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+}
+#item-grid-3{
+    background-image: url(/src/images/jogos-de-hoje.png);
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+}
+#item-grid-4{
+    background-image: url(/src/images/programação-tv.png);
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+}
+
+@media (max-width: 630px){
+    .category-contents{
+        height: 150px;
+        width: 200px;
+        font-size: 0.72rem;
+    }
+}
+@media (max-width: 512px){
+    .category-contents{
+        height: 100px;
+        width: 150px;
+        font-size: 0.72rem;
+    }
+}
+@media (max-width: 465px){
+    main{
+        padding: 28px 4%;
+    }
+}
+@media (max-width: 392px){
+    .category-contents{
+        height: 90px;
+        width: 130px;
+        font-size: 0.6rem;
+    }
+}

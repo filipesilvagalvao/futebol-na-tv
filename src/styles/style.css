@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(./header.css);
+@import url(./main.css);
+@import url(./greatchannel.css);
+@import url(./playsoccer.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: #f0ffff;
+}
+li{
+    list-style-type: none;
+}
+.show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.hide{
+    display: none;
+}

@@ -1,0 +1,43 @@
+#games-today{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#grid-play-soccer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.match{
+    width: 250px;
+    height: 200px;
+    border: 1px solid #ffffff67;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.match div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.match img{
+    width: auto;
+    height: 40px;
+}

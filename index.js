@@ -137,4 +137,4 @@ async function generateHTML() {
 }
 
 // Chama a função para gerar as páginas HTML
-generateHTML();
+//generateHTML();

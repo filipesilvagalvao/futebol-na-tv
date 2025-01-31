@@ -1,0 +1,53 @@
+.game-match{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 30px;
+}
+.game-match h1, .game-match h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#screen-video iframe{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+#btn-sinals{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7.5px;
+    flex-wrap: wrap;
+}
+
+#btn-sinals>button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(63, 63, 63);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btn-sinals>button:hover{
+    background-color: rgb(36, 214, 36);
+    color: rgb(54, 54, 54);
+}
+
+#text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    gap: 30px;
+}
+#text-content li{
+    margin-bottom: 15px;
+}

@@ -3,6 +3,7 @@
 @import url(./main.css);
 @import url(./greatchannel.css);
 @import url(./playsoccer.css);
+@import url(./pagepost.css);
 
 *{
     padding: 0;
@@ -27,4 +28,8 @@ li{
 }
 .hide{
     display: none;
+}
+body{
+    background-image: url('/src/images/dark-denim.png'); 
+    background-color: rgb(0, 0, 0);
 }

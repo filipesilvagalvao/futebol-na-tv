@@ -55,7 +55,8 @@
     }
     .channel h3{
         font-size: 0.7rem;
-        word-wrap: break-word; /* Propriedade antiga */
-        overflow-wrap: break-word; /* Substitui a anterior */
+        white-space: nowrap; /* Impede que o texto quebre linha */
+        overflow: hidden; /* Esconde o que ultrapassa */
+        text-overflow: ellipsis; /* Adiciona os "..." quando o texto for cortado */
     }
 }

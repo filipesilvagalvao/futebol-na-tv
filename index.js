@@ -227,9 +227,9 @@ async function generateHTML() {
 // Chama a função para gerar as páginas HTML
 generateHTML();
 
-const nodeSchedule = require('node-schedule');
+/*const nodeSchedule = require('node-schedule');
 
 nodeSchedule.scheduleJob('30 00 * * *', async()=>{ await scrap()});
-nodeSchedule.scheduleJob('30 00 * * *', ()=>{setTimeout(() => {generateHTML()}, 10000)});
+nodeSchedule.scheduleJob('30 00 * * *', ()=>{setTimeout(() => {generateHTML()}, 10000)});*/
 
 

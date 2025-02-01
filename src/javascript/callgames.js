@@ -15,7 +15,7 @@ export function madeGames() {
                 
 
                 const a = document.createElement('a')
-                a.href = `/jogos-de-hoje/${element.team1.name.replace(/\s+/g, '-').toLowerCase()}-vs-${element.team2.name.replace(/\s+/g, '-').toLowerCase()}/index.html`
+                a.href = `/jogos-de-hoje/${element.team1.name.replace(/\s+/g, '-').toLowerCase()}-vs-${element.team2.name.replace(/\s+/g, '-').toLowerCase()}/`
                 const h3 = document.createElement('h3')
                 h3.innerText = `${element.team1.name} - ${element.team2.name}`
 

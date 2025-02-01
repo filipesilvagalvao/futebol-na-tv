@@ -1,3 +1,5 @@
+export function GET(request) {
+
 const path = require('path');
 const puppeteer = require('puppeteer');
 const fs = require('fs');  // Importa o módulo fs para escrever o arquivo JSON
@@ -231,5 +233,4 @@ generateHTML();
 
 nodeSchedule.scheduleJob('30 00 * * *', async()=>{ await scrap()});
 nodeSchedule.scheduleJob('30 00 * * *', ()=>{setTimeout(() => {generateHTML()}, 10000)});*/
-
-
+}

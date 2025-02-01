@@ -17,8 +17,8 @@
 }
 
 .match{
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     border: 1px solid #ffffff67;
     display: flex;
     justify-content: center;
@@ -46,5 +46,5 @@
 .match h3{
     font-size: 0.8rem;
     position: absolute;
-    top: 40px;
+    top: 20px;
 }

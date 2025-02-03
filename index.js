@@ -2,6 +2,38 @@ const path = require('path');
 const puppeteer = require('puppeteer');
 const fs = require('fs');  // Importa o módulo fs para escrever o arquivo JSON
 
+let listCanais = [];
+
+const channels = [
+    { channel: 'GE.GLOBO MG', links: ['https://embedmax.site/tvl/globoMG.php', 'https://reidoscanais.tv/embed/?id=globomg-globominas'] },
+    { channel: 'GE.GLOBO SP', links: ['https://embedmax.site/tvl/globoSP.php', 'https://reidoscanais.tv/embed/?id=globosp-globosaopaulo', '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=bobosp'] },
+    { channel: 'GE.GLOBO RJ', links: ['https://embedmax.site/tvl/globoRJ.php', 'https://reidoscanais.tv/embed/?id=globorj-globorio', '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=boborj'] },
+    { channel: 'GLOBO', links: ['https://embedmax.site/tvl/globoMG.php', 'https://reidoscanais.tv/embed/?id=globomg-globominas', 'https://embedmax.site/tvl/globoSP.php', 'https://reidoscanais.tv/embed/?id=globosp-globosaopaulo', '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=bobosp', 'https://embedmax.site/tvl/globoRJ.php', 'https://reidoscanais.tv/embed/?id=globorj-globorio', '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=boborj'] },
+    { channel: 'GLOBO MG', links: ['https://embedmax.site/tvl/globoMG.php', 'https://reidoscanais.tv/embed/?id=globomg-globominas'] },
+    { channel: 'GLOBO SP', links: ['https://embedmax.site/tvl/globoSP.php', 'https://reidoscanais.tv/embed/?id=globosp-globosaopaulo', '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=bobosp'] },
+    { channel: 'GLOBO RJ', links: ['https://embedmax.site/tvl/globoRJ.php', 'https://reidoscanais.tv/embed/?id=globorj-globorio', '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=boborj'] },
+    { channel: 'DISNEY+ PREMIUM', links: ['https://embedcanaistv.com/disneyplus/', 'https://embedmax.site/tvl/disneyplus.php'] },
+    { channel: 'DISNEY+', links: ['https://embedcanaistv.com/disneyplus/', 'https://embedmax.site/tvl/disneyplus.php'] },
+    { channel: 'ESPN', links: ['https://embedmax.site/tvl/espn1.php', 'https://reidoscanais.tv/embed/?id=espn', 'https://playertv.net/e/?v=espn'] },
+    { channel: 'ESPN 2', links: ['https://embedmax.site/tvl/espn2.php', 'https://reidoscanais.tv/embed/?id=espn2', 'https://playertv.net/e/?v=espn2'] },
+    { channel: 'ESPN 3', links: ['https://embedmax.site/tvl/espn3.php', 'https://reidoscanais.tv/embed/?id=espn3', 'https://playertv.net/e/?v=espn3'] },
+    { channel: 'ESPN 4', links: ['https://embedmax.site/tvl/espn4.php', 'https://reidoscanais.tv/embed/?id=espn4', 'https://playertv.net/e/?v=espn4'] },
+    { channel: 'BANDSPORTS', links: ['https://embedmax.site/tvl/bandsports.php', 'https://reidoscanais.tv/embed/?id=bandsports', 'https://playertv.net/e/?v=bandSports'] },
+    { channel: 'PREMIERE', links: ['https://embedmax.site/tvl/premiere1.php', 'https://reidoscanais.tv/embed/?id=premiere', 'https://playertv.net/e/?v=premiere'] },
+    { channel: 'PREMIERE FC', links: ['https://embedmax.site/tvl/premiere1.php', 'https://reidoscanais.tv/embed/?id=premiere', 'https://playertv.net/e/?v=premiere'] },
+    { channel: 'PREMIERE 2', links: ['https://embedmax.site/tvl/premiere2.php', 'https://reidoscanais.tv/embed/?id=premiere2', 'https://playertv.net/e/?v=premiere2'] },
+    { channel: 'PREMIERE 3', links: ['https://embedmax.site/tvl/premiere3.php', 'https://reidoscanais.tv/embed/?id=premiere3', 'https://playertv.net/e/?v=premiere3'] },
+    { channel: 'PREMIERE 4', links: ['https://embedmax.site/tvl/premiere4.php', 'https://reidoscanais.tv/embed/?id=premiere4', 'https://playertv.net/e/?v=premiere4'] },
+    { channel: 'CAZÉ TV', links: ['https://reidoscanais.tv/embed/?id=cazetv', 'https://reidoscanais.tv/embed/?id=cazetv2', 'https://reidoscanais.tv/embed/?id=cazetv3'] },
+    { channel: 'SPORTV', links: ['https://embedmax.site/tvl/sportv1.php', 'https://reidoscanais.tv/embed/?id=sportv', 'https://playertv.net/e/?v=sportv'] },
+    { channel: 'SPORTV 2', links: ['https://embedmax.site/tvl/sportv2.php', 'https://reidoscanais.tv/embed/?id=sportv2', 'https://playertv.net/e/?v=sportv2'] },
+    { channel: 'SPORTV 3', links: ['https://embedmax.site/tvl/sportv3.php', 'https://reidoscanais.tv/embed/?id=sportv3', 'https://playertv.net/e/?v=sportv3'] },
+    { channel: 'CANAL GOAT', links: ['https://embedmax.site/tvl/canalgoat1.php', 'https://embedmax.site/tvl/canalgoat2.php', 'https://embedmax.site/tvl/canalgoat2.php'] },
+    { channel: 'RECORD', links: ['https://embedmax.site/tvl/recordSP.php', 'https://reidoscanais.tv/embed/?id=recordsp', 'https://playertv.net/e/?v=recordSP'] }
+]
+
+
+
 async function autoScroll(page) {
     await page.evaluate(async () => {
         await new Promise((resolve) => {
@@ -83,10 +115,34 @@ async function generateHTML() {
             fs.mkdirSync(dir);
         }
 
-        // Itera sobre cada jogo e cria uma página HTML
-        jogos.forEach((jogo, index) => {
 
-            if (jogo.championship !== 'Campeonato não encontrado') {
+        let jogosFilter = []
+
+        jogos.forEach((e) => {
+            if (e.championship !== 'Campeonato não encontrado' && e.channels[0] !== 'Nenhum canal disponível') {
+                jogosFilter.push(e)
+            }
+        })
+        console.log(jogosFilter)
+
+        jogosFilter.forEach(function (partida) {
+            let linksDaPartida = [];
+        
+            partida.channels.forEach(canal => {
+                const canalEncontrado = channels.find(c => c.channel === canal);
+        
+                if (canalEncontrado) {
+                    linksDaPartida.push(...canalEncontrado.links);
+                }
+            });
+        
+            if (linksDaPartida.length > 0) {
+                listCanais.push(linksDaPartida);
+            }
+        });
+        // Itera sobre cada jogo e cria uma página HTML
+        jogosFilter.forEach((jogo, index) => {
+            if (typeof listCanais[index] != 'undefined') {
                 // Cria uma versão amigável do nome da partida para o nome da pasta
                 const nomeDaPartida = `${jogo.team1.name.replace(/\s+/g, '-').toLowerCase()}-vs-${jogo.team2.name.replace(/\s+/g, '-').toLowerCase()}`;
 
@@ -167,30 +223,41 @@ async function generateHTML() {
                             <h1>Assistir ${jogo.team1.name} x ${jogo.team2.name} ao vivo</h1>
                             
                             <div id="screen-video">
-                                <iframe src="https://embedmax.site/tvl/sbt.php" allowfullscreen allow="encrypted-media" frameborder="0"></iframe>
+                                <iframe src="" allowfullscreen allow="encrypted-media" frameborder="0"></iframe>
                                 <div id="btn-sinals">
-                                    <button>SINAL 1</button>
-                                    <button>SINAL 2</button>
-                                    <button>SINAL 3</button>
-                                    <button>SINAL 4</button>
-                                    <button>SINAL 5</button>
-                                    <button>SINAL 6</button>
-                                    <button>SINAL 8</button>
-                                    <button>SINAL 9</button>
-                                    <button>SINAL 10</button>
-                                    <button>SINAL 11</button>
-                                    <button>SINAL 12</button>
-                                    <button>SINAL 13</button>
-                                    <button>SINAL 14</button>
-                                    <button>SINAL 15</button>
-                                    <button>SINAL 16</button>
-                                    <button>SINAL 17</button>
-                                    <button>SINAL 18</button>
-                                    <button>SINAL 19</button>
-                                    <button>SINAL 20</button>
+                                    
                                 </div>
                             </div>
-                            
+                            <script defer>
+                // SetInterval para aguardar a variável ficar pronta
+                const intervalId = setInterval(() => {
+                    // Se listCanais não estiver definida ou não estiver no formato esperado
+                    if (typeof listCanais === 'undefined' || !Array.isArray(listCanais[0])) {
+                        console.log("espere...");
+                    } else {
+                        const iframe = document.querySelector('iframe')
+                        iframe.src = listCanais[${index}][0]
+                        // Quando listCanais for definida e no formato esperado, parar o intervalo
+                        clearInterval(intervalId);
+                        console.log("listCanais agora está definida.", listCanais);
+
+                        // Iterar sobre os canais
+                        listCanais[${index}].forEach((e, i) => {
+                            const btnSinals = document.querySelector('#btn-sinals');
+                            const button = document.createElement('button');
+                            button.innerText = 'Sinal ' + (i + 1);
+                            btnSinals.appendChild(button);
+                        });
+
+                        const btns = document.querySelectorAll('#btn-sinals > button ')
+                        btns.forEach((e,i)=>{
+                            e.addEventListener('click', ()=>{
+                                iframe.src = listCanais[${index}][i]
+                            })
+                        })
+                    }
+                }, 500);
+            </script>
                             <section id="text-content">
                                 <h2>Onde assistir ${jogo.team1.name} x ${jogo.team2.name} hoje?</h2>
                                 <p>Fique atento aos canais e horários abaixo:</p>

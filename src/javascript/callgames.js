@@ -1,4 +1,34 @@
 export function madeGames() {
+    let listCanais = [];
+
+    const channels = [
+        {channel:'GE.GLOBO MG',links:['https://embedmax.site/tvl/globoMG.php','https://reidoscanais.tv/embed/?id=globomg-globominas']},
+        {channel:'GE.GLOBO SP',links:['https://embedmax.site/tvl/globoSP.php','https://reidoscanais.tv/embed/?id=globosp-globosaopaulo','//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=bobosp']},
+        {channel:'GE.GLOBO RJ',links:['https://embedmax.site/tvl/globoRJ.php','https://reidoscanais.tv/embed/?id=globorj-globorio','//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=boborj']},
+        {channel:'GLOBO',links:['https://embedmax.site/tvl/globoMG.php','https://reidoscanais.tv/embed/?id=globomg-globominas','https://embedmax.site/tvl/globoSP.php','https://reidoscanais.tv/embed/?id=globosp-globosaopaulo','//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=bobosp','https://embedmax.site/tvl/globoRJ.php','https://reidoscanais.tv/embed/?id=globorj-globorio','//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=boborj']},
+        {channel:'GLOBO MG',links:['https://embedmax.site/tvl/globoMG.php','https://reidoscanais.tv/embed/?id=globomg-globominas']},
+        {channel:'GLOBO SP',links:['https://embedmax.site/tvl/globoSP.php','https://reidoscanais.tv/embed/?id=globosp-globosaopaulo','//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=bobosp']},
+        {channel:'GLOBO RJ',links:['https://embedmax.site/tvl/globoRJ.php','https://reidoscanais.tv/embed/?id=globorj-globorio','//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=boborj']},
+        {channel:'DISNEY+ PREMIUM',links:['https://embedcanaistv.com/disneyplus/','https://embedmax.site/tvl/disneyplus.php']},
+        {channel:'DISNEY+',links:['https://embedcanaistv.com/disneyplus/','https://embedmax.site/tvl/disneyplus.php']},
+        {channel:'ESPN',links:['https://embedmax.site/tvl/espn1.php','https://reidoscanais.tv/embed/?id=espn','https://playertv.net/e/?v=espn']},
+        {channel:'ESPN 2',links:['https://embedmax.site/tvl/espn2.php','https://reidoscanais.tv/embed/?id=espn2','https://playertv.net/e/?v=espn2']},
+        {channel:'ESPN 3',links:['https://embedmax.site/tvl/espn3.php','https://reidoscanais.tv/embed/?id=espn3','https://playertv.net/e/?v=espn3']},
+        {channel:'ESPN 4',links:['https://embedmax.site/tvl/espn4.php','https://reidoscanais.tv/embed/?id=espn4','https://playertv.net/e/?v=espn4']},
+        {channel:'BANDSPORTS',links:['https://embedmax.site/tvl/bandsports.php','https://reidoscanais.tv/embed/?id=bandsports','https://playertv.net/e/?v=bandSports']},
+        {channel:'PREMIERE',links:['https://embedmax.site/tvl/premiere1.php','https://reidoscanais.tv/embed/?id=premiere','https://playertv.net/e/?v=premiere']},
+        {channel:'PREMIERE FC',links:['https://embedmax.site/tvl/premiere1.php','https://reidoscanais.tv/embed/?id=premiere','https://playertv.net/e/?v=premiere']},
+        {channel:'PREMIERE 2',links:['https://embedmax.site/tvl/premiere2.php','https://reidoscanais.tv/embed/?id=premiere2','https://playertv.net/e/?v=premiere2']},
+        {channel:'PREMIERE 3',links:['https://embedmax.site/tvl/premiere3.php','https://reidoscanais.tv/embed/?id=premiere3','https://playertv.net/e/?v=premiere3']},
+        {channel:'PREMIERE 4',links:['https://embedmax.site/tvl/premiere4.php','https://reidoscanais.tv/embed/?id=premiere4','https://playertv.net/e/?v=premiere4']},
+        {channel:'CAZÉ TV',links:['https://reidoscanais.tv/embed/?id=cazetv','https://reidoscanais.tv/embed/?id=cazetv2','https://reidoscanais.tv/embed/?id=cazetv3']},
+        {channel:'SPORTV',links:['https://embedmax.site/tvl/sportv1.php','https://reidoscanais.tv/embed/?id=sportv','https://playertv.net/e/?v=sportv']},
+        {channel:'SPORTV 2',links:['https://embedmax.site/tvl/sportv2.php','https://reidoscanais.tv/embed/?id=sportv2','https://playertv.net/e/?v=sportv2']},
+        {channel:'SPORTV 3',links:['https://embedmax.site/tvl/sportv3.php','https://reidoscanais.tv/embed/?id=sportv3','https://playertv.net/e/?v=sportv3']},
+        {channel:'CANAL GOAT',links:['https://embedmax.site/tvl/canalgoat1.php','https://embedmax.site/tvl/canalgoat2.php','https://embedmax.site/tvl/canalgoat2.php']},
+        {channel:'RECORD',links:['https://embedmax.site/tvl/recordSP.php','https://reidoscanais.tv/embed/?id=recordsp','https://playertv.net/e/?v=recordSP']}
+    ]
+
     const URL = '/jogos.json'
 
     async function callGames() {
@@ -10,10 +40,9 @@ export function madeGames() {
         }
         const gridPlaySoccer = document.querySelector('#grid-play-soccer')
 
-        obj.forEach((element) => {
-            if (element.championship !== 'Campeonato não encontrado' && gridPlaySoccer != null) {
-                
+        obj.forEach((element,i) => {
 
+            if (element.championship !== 'Campeonato não encontrado' && gridPlaySoccer != null && element.channels[0] !== 'Nenhum canal disponível') {
                 const a = document.createElement('a')
                 a.href = `/jogos-de-hoje/${element.team1.name.replace(/\s+/g, '-').toLowerCase()}-vs-${element.team2.name.replace(/\s+/g, '-').toLowerCase()}/`
                 const h3 = document.createElement('h3')
@@ -48,6 +77,26 @@ export function madeGames() {
             }
         });
 
+        
+
+            obj.forEach(function (partida) {
+                let linksDaPartida = [];
+
+                partida.channels.forEach(canal => {
+                    const canalEncontrado = channels.find(c => c.channel === canal);
+
+                    if (canalEncontrado) {
+                        linksDaPartida.push(...canalEncontrado.links);
+                    }
+                });
+
+                if (linksDaPartida.length > 0) {
+                    listCanais.push(linksDaPartida);
+                }
+            });
+
+            console.log(listCanais);
+            window.listCanais = listCanais
     }
 
     callGames()

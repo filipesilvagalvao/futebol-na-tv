@@ -47,5 +47,6 @@ body{
 }
 #loading > span{
     background-color: rgba(38, 139, 197, 0.418);
-    padding: 15px;
+    padding: 12px;
+    white-space: nowrap
 }

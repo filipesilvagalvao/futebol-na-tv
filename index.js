@@ -185,7 +185,7 @@ async function generateHTML() {
                             </section>
                         </article>
                     </main>
-                    <footer></footer>
+                    <footer><div><p>&copy; Todos os direitos reservados - 2025 - PlayTV Online</p></div></footer>
                     <script>
                         const btnSinals = document.querySelector('#btn-sinals')
                         const iframe = document.querySelector('iframe')

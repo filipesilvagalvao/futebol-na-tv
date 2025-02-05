@@ -1,34 +1,32 @@
 [
   {
     "team1": {
-      "name": "Real Sociedad (F)",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/0dbb44b5c040f13f212be9333583b99b.png"
+      "name": "Decisao",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/de493cb9cff9d77276e7e6e72196cb6b.png"
     },
     "team2": {
-      "name": "Real Madrid (F)",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/df223ac0690c57b6bbb1f4c805388529.png"
+      "name": "Afogados",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/917d6dbc5bfbdd2eeafbee42b5c2c1f3.png"
     },
     "time": "15:00",
-    "championship": "Espanhol Feminino - Rodada 11",
+    "championship": "Campeonato Pernambucano - 1ª Fase - Rodada 6",
     "channels": [
-      "DAZN",
-      "YOUTUBE DAZN UEFA"
+      "YOUTUBE TV FPF PE"
     ]
   },
   {
     "team1": {
-      "name": "Al-Hilal",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/WYpgF8giva0DgnseCZCgw9kMUb361E8LG0NxPJyK.png"
+      "name": "Oeste",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/4a0e78d79ea744921b81ce83831185bd.png"
     },
     "team2": {
-      "name": "Persepolis FC",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/2dc2a37b331e415c14520392e49cd758.png"
+      "name": "Taubate",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/4495baad47be3e15ca9742f1db847097.png"
     },
     "time": "15:00",
-    "championship": "AFC Champions League - League Stage - 7",
+    "championship": "Campeonato Paulista A2 - 1ª Fase - Rodada 7",
     "channels": [
-      "ESPN 4",
-      "DISNEY+ PREMIUM"
+      "YOUTUBE FUTEBOL PAULISTA"
     ]
   },
   {
@@ -48,136 +46,75 @@
   },
   {
     "team1": {
-      "name": "Dagenham & Redbridge",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/82451d3674d14de48a41d33e4467043f.png"
+      "name": "Santo André",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/193ce7e5b0b0edc9ddadbac2a3e6e3c1.png"
     },
     "team2": {
-      "name": "Forest Green",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/dd3ba1c641c3f23e248a63410ffe7b4b.png"
+      "name": "Rio Claro",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/5d719629458b81cf76b2746dff8d8694.png"
     },
-    "time": "16:45",
-    "championship": "National League - Rodada 26",
+    "time": "15:00",
+    "championship": "Campeonato Paulista A2 - 1ª Fase - Rodada 7",
     "channels": [
-      "DAZN"
+      "YOUTUBE FUTEBOL PAULISTA"
     ]
   },
   {
     "team1": {
-      "name": "Burnley",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/83d96dbaff232b5f64f25a2e1174c28b.png"
+      "name": "Bayer Leverkusen",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/4a1fb8a3fea3f6eed7a1d14f58903a4d.png"
     },
     "team2": {
-      "name": "Oxford United",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/7d45ebe5dfedfa75fb778483fc3785ee.png"
+      "name": "FC Koln",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/fcafb1d9530127ac172643c83e2d4825.png"
     },
     "time": "16:45",
-    "championship": "Inglês 2ª Divisão - Rodada 31",
+    "championship": "Copa da Alemanha - Quartas de Final",
     "channels": [
       "DISNEY+ PREMIUM"
     ]
   },
   {
     "team1": {
-      "name": "Rochdale",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/b9595927ffa090be17905f240e9eb962.png"
+      "name": "AC Milan",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/4ab264eefa3ff52c2335e6611765c663.png"
     },
     "team2": {
-      "name": "Oldham",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/64786ec707a76d15219bb60d88f08230.png"
+      "name": "Roma",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/8338567664cf1e42e7220fc262379bb6.png"
     },
-    "time": "16:45",
-    "championship": "National League - Rodada 19",
+    "time": "17:00",
+    "championship": "Copa Itália - Quartas de Final",
     "channels": [
-      "DAZN"
+      "CAZÉ TV"
     ]
   },
   {
     "team1": {
-      "name": "FC Halifax Town",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/6bce191e88e247eeb8039ec008f3c761.png"
+      "name": "Newcastle",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/11d7693aceb42e49246d18fde1178b0e.png"
     },
     "team2": {
-      "name": "AFC Fylde",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/1bc7dc7e4403fb8a8abe5d2d64a1b860.png"
+      "name": "Arsenal",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/77cad6aa73e055a1fd3947042445f633.png"
     },
-    "time": "16:45",
-    "championship": "National League - Rodada 25",
+    "time": "17:00",
+    "championship": "Copa da liga Inglesa - Semifinal",
     "channels": [
-      "DAZN"
-    ]
-  },
-  {
-    "team1": {
-      "name": "Wealdstone",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/7770032fc96ada917c1565a6bfe4fecb.png"
-    },
-    "team2": {
-      "name": "Tamworth",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/7f9faf88396d3e62ea26a720f88a3c4e.png"
-    },
-    "time": "16:45",
-    "championship": "National League - Rodada 20",
-    "channels": [
-      "DAZN"
-    ]
-  },
-  {
-    "team1": {
-      "name": "VfB Stuttgart",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/52397d87b7c70e50b998cffaa6269d38.png"
-    },
-    "team2": {
-      "name": "FC Augsburg",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/fac457da804e2105bb8ac238f1973812.png"
-    },
-    "time": "16:45",
-    "championship": "Copa da Alemanha - Quartas de Final",
-    "channels": [
-      "ESPN 3",
+      "ESPN",
       "DISNEY+"
     ]
   },
   {
     "team1": {
-      "name": "Desconhecido",
-      "logo": "https://www.futebolnatv.com.brundefined"
+      "name": "Leganes",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/9e5c7ca1ee1d11268494bdb3c830b42b.png"
     },
     "team2": {
-      "name": "Desconhecido",
-      "logo": "https://www.futebolnatv.com.brundefined"
-    },
-    "time": "Horário não disponível",
-    "championship": "Campeonato não encontrado",
-    "channels": [
-      "Nenhum canal disponível"
-    ]
-  },
-  {
-    "team1": {
-      "name": "Atalanta",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/d048333878283ba56859beee1ba7da1e.png"
-    },
-    "team2": {
-      "name": "Bologna",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/6817bfdba45a0988a6b7c09b179018d7.png"
+      "name": "Real Madrid",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/1630165beb648960865f2fdadb95cd4f.png"
     },
     "time": "17:00",
-    "championship": "Copa Itália - Quartas de Final",
-    "channels": [
-      "CAZÉ TV",
-      "PRIME VIDEO"
-    ]
-  },
-  {
-    "team1": {
-      "name": "Atletico Madrid",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/738d2438eb188f1a35eed95049ea46b7.png"
-    },
-    "team2": {
-      "name": "Getafe",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/1105b3728fe7a30ed0a75b61061f98d3.png"
-    },
-    "time": "17:30",
     "championship": "Copa do Rei - Quartas de Final",
     "channels": [
       "ESPN 4",
@@ -186,64 +123,18 @@
   },
   {
     "team1": {
-      "name": "Velo Clube",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/351f0d5ec71506fadf6efc23af2fbc57.png"
+      "name": "Bangu",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/29af09069b3c902c4ace0f972092182e.png"
     },
     "team2": {
-      "name": "Portuguesa",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/2b5ac5389030a362ba51423468add1fd.png"
+      "name": "Boavista SC",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/6f60bea601ab80e9a8e84e693b987ce9.png"
     },
-    "time": "18:30",
-    "championship": "Campeonato Paulista - Rodada 7",
+    "time": "18:00",
+    "championship": "Campeonato Carioca - Taça Guanabara - 8",
     "channels": [
-      "NOSSO FUTEBOL+",
-      "ZAPPING TV"
-    ]
-  },
-  {
-    "team1": {
-      "name": "Godoy Cruz",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/bcb48678424f67eeb18b4e0a214cabd8.png"
-    },
-    "team2": {
-      "name": "Talleres Cordoba",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/b6b7e50804a9d17a0f28ee004ffd963a.png"
-    },
-    "time": "19:00",
-    "championship": "Campeonato Argentino - 1ª Fase - Rodada 3",
-    "channels": [
-      "ESPN 3",
-      "DISNEY+"
-    ]
-  },
-  {
-    "team1": {
-      "name": "Horizonte",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/8ff2648781e321a465d1ae0d07fa1a82.png"
-    },
-    "team2": {
-      "name": "Tirol",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/NbPwvYpWitCt3YpJk1vOf7NZ8UESMx34DSTHAKxZ.png"
-    },
-    "time": "19:00",
-    "championship": "Campeonato Cearense - 1ª Fase - Rodada 4",
-    "channels": [
-      "YOUTUBE FCF TV"
-    ]
-  },
-  {
-    "team1": {
-      "name": "Operário-VG",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/JnTHiHuQgWLAQ66srDSPDCfJ1EhMCxZOAe0UT5zF.png"
-    },
-    "team2": {
-      "name": "Nova Mutum EC",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/11293a9f4bca1105a7f0409ad4f26c36.png"
-    },
-    "time": "19:00",
-    "championship": "Campeonato Mato-grossense - 1ª Rodada - 6",
-    "channels": [
-      "YOUTUBE FMF TV"
+      "BANDSPORTS",
+      "CANAL GOAT"
     ]
   },
   {
@@ -263,12 +154,43 @@
   },
   {
     "team1": {
-      "name": "Sampaio Correa",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/4dd84f9247afb0a5bbbd0e13dd1961a9.png"
+      "name": "Porto Vitória",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/bYhdANORoVBg2vyMcMDMSwNvxwtlmK1cnbYp7c99.png"
     },
     "team2": {
-      "name": "America-RN",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/1f93c5224d875e0cba71e3332dcd61c6.png"
+      "name": "Jaguar",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/86qYEv8Jl4PMk3GvAillVNnVDf3Gj5EjdhkrHvsz.png"
+    },
+    "time": "18:00",
+    "championship": "Campeonato Capixaba - 1ª Rodada - 5",
+    "channels": [
+      "TVE ES",
+      "YOUTUBE TVE ES"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Confiança",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/f4eede1697f9b3767376bd9c37fb78f7.png"
+    },
+    "team2": {
+      "name": "Náutico",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/43502d259cf234bf635a805651d04807.png"
+    },
+    "time": "19:00",
+    "championship": "Copa do Nordeste - Fase de Grupos - Rodada 2",
+    "channels": [
+      "PREMIERE 5"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Juazeirense",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/afeab67a69dff1e74b18c24b679446d5.png"
+    },
+    "team2": {
+      "name": "Bahia",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/3aff5415f2580a01cfb1d04a8135ab76.png"
     },
     "time": "19:00",
     "championship": "Copa do Nordeste - Fase de Grupos - Rodada 2",
@@ -278,12 +200,149 @@
   },
   {
     "team1": {
-      "name": "Colo Colo",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/2e537534a3c7b4b2511bb2817518f9cf.png"
+      "name": "Ituano",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/4fc2b56ffbeac1bbf54854f2c2ff5cd9.png"
     },
     "team2": {
-      "name": "Barcelona BA",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/x7sqPEzHDEjp2d9XvNNqyO8immZ0dU8qm15CyrRt.png"
+      "name": "Linense",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/d8cadfed152549e4b68cc7ae2b3da193.png"
+    },
+    "time": "19:00",
+    "championship": "Campeonato Paulista A2 - 1ª Fase - Rodada 7",
+    "channels": [
+      "YOUTUBE FUTEBOL PAULISTA"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Ferroviária",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/33abc9ed25737f3bbeaab800cb4b5878.png"
+    },
+    "team2": {
+      "name": "Primavera SP",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/e8709ff637d3689273d4e6a4d629ddef.png"
+    },
+    "time": "19:00",
+    "championship": "Campeonato Paulista A2 - 1ª Fase - Rodada 7",
+    "channels": [
+      "YOUTUBE FUTEBOL PAULISTA"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Capivariano",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/2acdb5e046fc5fcf6c4ad590f579ba40.png"
+    },
+    "team2": {
+      "name": "Gremio Prudente",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/elDydTJtKMPklZYAVvddgGqwxhAUy45a8VjmRYqt.png"
+    },
+    "time": "19:00",
+    "championship": "Campeonato Paulista A2 - 1ª Fase - Rodada 7",
+    "channels": [
+      "YOUTUBE FUTEBOL PAULISTA"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "team2": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "time": "Horário não disponível",
+    "championship": "Campeonato não encontrado",
+    "channels": [
+      "Nenhum canal disponível"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Tombense",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/862184a670cc011e5fe6006f3ce12940.png"
+    },
+    "team2": {
+      "name": "Aymores",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/bf7ea7449bd5366111aaf7492a5b3c9f.png"
+    },
+    "time": "19:00",
+    "championship": "Campeonato Mineiro - 1ª Fase - Rodada 6",
+    "channels": [
+      "YOUTUBE TV FMF MG"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Aquidauanense",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/516de87b72dc47d572a2bf6765bd86ff.png"
+    },
+    "team2": {
+      "name": "Costa Rica EC",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/RFc8hFrh2DHLaUaCSDrSMXRkKbtBuAmWBsGviFP4.png"
+    },
+    "time": "19:00",
+    "championship": "Sul-Matogrossense - 1ª Fase - Rodada 5",
+    "channels": [
+      "YOUTUBE COSTA RICA ESPORTE"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Avenida",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/a4309ca59f3f19e64e74b6d7fb44f36c.png"
+    },
+    "team2": {
+      "name": "Caxias",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/b615043d07672c56c769f9629150e3e0.png"
+    },
+    "time": "19:00",
+    "championship": "Campeonato Gaúcho - 1ª Fase - Rodada 5",
+    "channels": [
+      "YOUTUBE GZH",
+      "GE.GLOBO RS"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Portuguesa RJ",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/LkpfPFtjzYJyQAozoPnRXnGpshsusZL8g7l4GOjn.png"
+    },
+    "team2": {
+      "name": "Flamengo",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/680934bef5649e33691eae03c1989d23.png"
+    },
+    "time": "19:00",
+    "championship": "Campeonato Carioca - Taça Guanabara - 8",
+    "channels": [
+      "SPORTV",
+      "PREMIERE 2"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "team2": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "time": "Horário não disponível",
+    "championship": "Campeonato não encontrado",
+    "channels": [
+      "Nenhum canal disponível"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Atlético Alagoinhas",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/3799c609f8af59a608752c97b65ef511.png"
+    },
+    "team2": {
+      "name": "Jacuipense",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/jH3g2081vtNcSSMOZn4BcWBsE4RTaMH24TCnsnIg.png"
     },
     "time": "19:15",
     "championship": "Campeonato Baiano - 1ª Fase - Rodada 6",
@@ -294,12 +353,12 @@
   },
   {
     "team1": {
-      "name": "Atlético GO",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/cfd906634ba3c4bb4855b7ac15293ec8.png"
+      "name": "Jataiense",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/4luRxHsektDqza3YuGWT8hwG6xFYzX80WzwulsqC.png"
     },
     "team2": {
-      "name": "Goiatuba EC",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/zMsAoZyTZeBTtQp1lDAMRBmg8PHH0HM7QPCFjUA1.png"
+      "name": "Anápolis",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/a1861982cb32b637cd7d517c5e835c9f.png"
     },
     "time": "19:30",
     "championship": "Campeonato Goiano - 1ª Fase - Rodada 7",
@@ -309,17 +368,95 @@
   },
   {
     "team1": {
-      "name": "Parana",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/0c0fe8d8a9a0cb0015faea644041526a.png"
+      "name": "Goiania",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/d0cc10174faa8b19b66a28eabcaa68a0.png"
     },
     "team2": {
-      "name": "Maringá",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/vZIChOgbmjf0Y0jeZdmQ89lQUl67RpU9p9xcgjZ2.png"
+      "name": "Vila Nova",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/3c75f2cf4ec4ae68a66f75a753a414e7.png"
+    },
+    "time": "19:30",
+    "championship": "Campeonato Goiano - 1ª Fase - Rodada 7",
+    "channels": [
+      "YOUTUBE FGF TV"
+    ]
+  },
+  {
+    "team1": {
+      "name": "São Bento",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/4183e0d6228793daa7bebe66c0bf73d0.png"
+    },
+    "team2": {
+      "name": "Portuguesa Santista",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/87c2e5ffefe36ca159d73b772873918b.png"
+    },
+    "time": "19:30",
+    "championship": "Campeonato Paulista A2 - 1ª Fase - Rodada 7",
+    "channels": [
+      "YOUTUBE FUTEBOL PAULISTA"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Barra",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/zcwf8Jx7Df29oeUUa6Oxg84JndczYdr5WnyCROAz.png"
+    },
+    "team2": {
+      "name": "Chapecoense-sc",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/709bd7a6a32b933f4aa5d8972f371523.png"
+    },
+    "time": "19:30",
+    "championship": "Campeonato Catarinense - Rodada 7",
+    "channels": [
+      "YOUTUBE FCF TV SC"
+    ]
+  },
+  {
+    "team1": {
+      "name": "São Paulo",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/2fc3a68638eb1fd81631050de8800dea.png"
+    },
+    "team2": {
+      "name": "Mirassol",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/87c22595ca4b18cae7f9349553d9700f.png"
+    },
+    "time": "19:30",
+    "championship": "Campeonato Paulista - Rodada 7",
+    "channels": [
+      "NOSSO FUTEBOL+",
+      "ZAPPING TV"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Noroeste",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/85b48d498ea318f188e8b8a75f428a62.png"
+    },
+    "team2": {
+      "name": "Ponte Preta",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/55d167fe0789b9c1b61cd72b44f6d456.png"
+    },
+    "time": "19:30",
+    "championship": "Campeonato Paulista - Rodada 7",
+    "channels": [
+      "NOSSO FUTEBOL+",
+      "ZAPPING TV"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Goianésia",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/e00591edd9c1986835d62d0544d29608.png"
+    },
+    "team2": {
+      "name": "ABECAT Ouvidorense",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/396cd61e53662aeb25bd9f8f1289665e.png"
     },
     "time": "20:00",
-    "championship": "Campeonato Paranaense - Fase de Grupos - Rodada 8",
+    "championship": "Campeonato Goiano - 1ª Fase - Rodada 7",
     "channels": [
-      "NSPORTS"
+      "TV ASSEMBLEIA GO",
+      "YOUTUBE FGF TV"
     ]
   },
   {
@@ -339,12 +476,12 @@
   },
   {
     "team1": {
-      "name": "Vitoria ES",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/f60103fd6008b711860c23666da4892b.png"
+      "name": "Rio Branco-VN",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/rasj6mcBYUp5SVRUuh6PRiIbagkF0Bjwf6RLuU2r.png"
     },
     "team2": {
-      "name": "Vilavelhense",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/c482cd23bb43034fe07aeeb697bb03e6.png"
+      "name": "Capixaba SC",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/9636e3ec91c02c4347eff68815206096.png"
     },
     "time": "20:00",
     "championship": "Campeonato Capixaba - 1ª Rodada - 5",
@@ -355,85 +492,375 @@
   },
   {
     "team1": {
-      "name": "Inter De Limeira",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/e2b7c3e52e958750ab9a4cf8a712ead6.png"
+      "name": "Figueirense",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/bfcfdb64df63dc70123c2d7587afacd0.png"
     },
     "team2": {
-      "name": "RB Bragantino",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/c5622ba376c9a95d2d9a9c80bc42924b.png"
+      "name": "Brusque",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/c0f81f8c04405f45bbc239fe6fb8263a.png"
+    },
+    "time": "20:00",
+    "championship": "Campeonato Catarinense - Rodada 7",
+    "channels": [
+      "YOUTUBE FCF TV SC"
+    ]
+  },
+  {
+    "team1": {
+      "name": "XV de Piracicaba",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/188cbc229b271b2f84f267915f7262ac.png"
+    },
+    "team2": {
+      "name": "Juventus",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/a2b81cfc1cac706406da3c63262adc3d.png"
+    },
+    "time": "20:00",
+    "championship": "Campeonato Paulista A2 - 1ª Fase - Rodada 7",
+    "channels": [
+      "YOUTUBE FUTEBOL PAULISTA"
+    ]
+  },
+  {
+    "team1": {
+      "name": "São José EC",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/718bec76578c7449c86ef9a9962cd583.png"
+    },
+    "team2": {
+      "name": "Votuporanguense",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/56d081400b7b209795aea06d7b524734.png"
+    },
+    "time": "20:00",
+    "championship": "Campeonato Paulista A2 - 1ª Fase - Rodada 7",
+    "channels": [
+      "CANAL GOAT"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Coritiba",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/7e0803466477dced41a5154b3e75eec4.png"
+    },
+    "team2": {
+      "name": "Rio Branco PR",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/ff858a048ef34e80bb869c5cceb30e69.png"
+    },
+    "time": "20:00",
+    "championship": "Campeonato Paranaense - Fase de Grupos - Rodada 8",
+    "channels": [
+      "NSPORTS"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Cascavel",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/04b52dfa09b241da524c6b36b59749d0.png"
+    },
+    "team2": {
+      "name": "Andraus Brasil",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/70285669b645ff3cfb7e097a2c0d1a4c.png"
+    },
+    "time": "20:00",
+    "championship": "Campeonato Paranaense - Fase de Grupos - Rodada 8",
+    "channels": [
+      "NSPORTS"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Londrina",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/7caff58008487e9a97d2cac3ad93319a.png"
+    },
+    "team2": {
+      "name": "Azuriz",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/sN2ULy9mPxabMvlzawCh3uv5gzaFHHugBoKwRNj3.png"
+    },
+    "time": "20:00",
+    "championship": "Campeonato Paranaense - Fase de Grupos - Rodada 8",
+    "channels": [
+      "NSPORTS"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Cianorte",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/570ac7c297c0212d4a203ea67fcaee5e.png"
+    },
+    "team2": {
+      "name": "Operário-PR",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/Mv8De0Z99tVtQBizhl2Ok8KCcCCr4emrjwemt0S2.png"
+    },
+    "time": "20:00",
+    "championship": "Campeonato Paranaense - Fase de Grupos - Rodada 8",
+    "channels": [
+      "NSPORTS"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Pouso Alegre",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/6841742b45c451b447ebe42715b5cca8.png"
+    },
+    "team2": {
+      "name": "Betim",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/78dad3476fde325d96df2df2f0d1dc60.png"
+    },
+    "time": "20:00",
+    "championship": "Campeonato Mineiro - 1ª Fase - Rodada 6",
+    "channels": [
+      "YOUTUBE TV FMF MG"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Villa Nova",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/84f00084ff79ce2bcdd6104128fa73ac.png"
+    },
+    "team2": {
+      "name": "Itabirito",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/822ad7087499c68810fbe67957f246c6.png"
+    },
+    "time": "20:00",
+    "championship": "Campeonato Mineiro - 1ª Fase - Rodada 6",
+    "channels": [
+      "YOUTUBE TV FMF MG"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "team2": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "time": "Horário não disponível",
+    "championship": "Campeonato não encontrado",
+    "channels": [
+      "Nenhum canal disponível"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Internacional",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/57b9e4f70dff737964be642fdeab71a8.png"
+    },
+    "team2": {
+      "name": "Brasil de Pelotas",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/9c6c99978b05c4c36ecc5766dd03d6a1.png"
+    },
+    "time": "20:00",
+    "championship": "Campeonato Gaúcho - 1ª Fase - Rodada 5",
+    "channels": [
+      "PREMIERE 4"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Hercilio Luz",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/35euFyaoInaxAsUrC9HRqpEwwGi997COIt2EkhLN.png"
+    },
+    "team2": {
+      "name": "Avai",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/43a381ab976bf94c25db8785c5ed19b4.png"
     },
     "time": "20:30",
-    "championship": "Campeonato Paulista - Rodada 7",
+    "championship": "Campeonato Catarinense - Rodada 7",
     "channels": [
-      "TNT",
-      "MAX",
-      "NOSSO FUTEBOL+",
+      "YOUTUBE FCF TV SC",
       "ZAPPING TV"
     ]
   },
   {
     "team1": {
-      "name": "Sport Recife",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/8997c75515d2dc2e23798f719924519e.png"
+      "name": "Criciúma",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/c570f3ac6a24ea378265c723170e6677.png"
     },
     "team2": {
-      "name": "Fortaleza",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/43700347673eaf5b5bc35e314db638e3.png"
+      "name": "Santa Catarina",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/24935cf89fe022565b768194d5708688.png"
+    },
+    "time": "21:00",
+    "championship": "Campeonato Catarinense - Rodada 7",
+    "channels": [
+      "YOUTUBE FCF TV SC",
+      "ZAPPING TV"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Operario MS",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/9k1etukgtnNeDaLw7Oqz0tdTHiBvEaCa5S0ENocZ.png"
+    },
+    "team2": {
+      "name": "Corumbaense",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/29b4b14004000cd9944b2dd3cd6b9043.png"
+    },
+    "time": "21:00",
+    "championship": "Sul-Matogrossense - 1ª Fase - Rodada 5",
+    "channels": [
+      "YOUTUBE FFMS TV"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Nacional Asuncion",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/b3db5e0622621024bfac0c928fc99a19.png"
+    },
+    "team2": {
+      "name": "Alianza Lima",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/c5db85da0525dcc1901dcd016fe284b7.png"
+    },
+    "time": "21:30",
+    "championship": "Copa Libertadores - 1ª Rodada",
+    "channels": [
+      "ESPN",
+      "DISNEY+"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Ceará",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/e79caa61713980b1bf546319e62e27ba.png"
+    },
+    "team2": {
+      "name": "CSA",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/cf0b07339dc5a0c485f7fd0268dc0ca8.png"
     },
     "time": "21:30",
     "championship": "Copa do Nordeste - Fase de Grupos - Rodada 2",
     "channels": [
-      "SBT",
-      "ESPN",
-      "DISNEY+ PREMIUM",
       "PREMIERE FC"
     ]
   },
   {
     "team1": {
-      "name": "Vitória",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/3bb8aa492c0330b0e70c2e26f0f91091.png"
+      "name": "Altos",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/12d0011d1b725305a16e3b0eba6edf12.png"
     },
     "team2": {
-      "name": "Sousa",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/d67628e929b726a52253a55e8050a8d4.png"
+      "name": "CRB",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/bd86dcaf2675043e41900cbd63f93584.png"
     },
     "time": "21:30",
     "championship": "Copa do Nordeste - Fase de Grupos - Rodada 2",
     "channels": [
-      "SBT",
-      "PREMIERE 2"
+      "PREMIERE 7"
     ]
   },
   {
     "team1": {
-      "name": "Atlético-MG",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/427d5b92e3e9fa5bf9be94c055f32383.png"
+      "name": "Moto Club",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/3ba9c6e5a225ad21af350dcecbaf3b90.png"
     },
     "team2": {
-      "name": "Athletic Club",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/qxBD22FoUkTSPWGiDZKji0galMd5idtd6COEtiPi.webp"
+      "name": "Ferroviário",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/76db9da2adce9a03ba89ad8605515737.png"
     },
     "time": "21:30",
+    "championship": "Copa do Nordeste - Fase de Grupos - Rodada 2",
+    "channels": [
+      "PREMIERE 6"
+    ]
+  },
+  {
+    "team1": {
+      "name": "São Luiz",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/b6596d57409044cc842d101a131a0381.png"
+    },
+    "team2": {
+      "name": "Pelotas",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/578d5dd8038d4c1d974c2a0f808ec7d8.png"
+    },
+    "time": "21:30",
+    "championship": "Campeonato Gaúcho - 1ª Fase - Rodada 5",
+    "channels": [
+      "YOUTUBE GZH",
+      "GE.GLOBO RS"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Vasco",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/f3809186a5b461aeea5583666aad6156.png"
+    },
+    "team2": {
+      "name": "Fluminense",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/9ef75dd3dddfc3472164bf4093b42932.png"
+    },
+    "time": "21:30",
+    "championship": "Campeonato Carioca - Taça Guanabara - 8",
+    "channels": [
+      "BAND",
+      "PREMIERE 3",
+      "CANAL GOAT"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "team2": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "time": "Horário não disponível",
+    "championship": "Campeonato não encontrado",
+    "channels": [
+      "Nenhum canal disponível"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Santos",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/eee8c62c7c033d339f2088cc537714b0.png"
+    },
+    "team2": {
+      "name": "Botafogo SP",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/5d5f974074fe43a0436632d49d5adcb7.png"
+    },
+    "time": "21:35",
+    "championship": "Campeonato Paulista - Rodada 7",
+    "channels": [
+      "RECORD",
+      "TNT",
+      "CAZÉ TV",
+      "MAX"
+    ]
+  },
+  {
+    "team1": {
+      "name": "América-MG",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/b273693fc32e8284e352b8909d70499c.png"
+    },
+    "team2": {
+      "name": "Cruzeiro",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/bc2ddceb5fae7574a1616955ff3e6344.png"
+    },
+    "time": "22:00",
     "championship": "Campeonato Mineiro - 1ª Fase - Rodada 6",
     "channels": [
-      "SPORTV",
-      "PREMIERE 3"
+      "GLOBO MG",
+      "SPORTV 2",
+      "PREMIERE 5"
     ]
   },
   {
     "team1": {
-      "name": "Monagas SC",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/b0b9aff60613b31345c3862df477de40.png"
+      "name": "Juventude",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/69177a419967da608552349978d985d8.png"
     },
     "team2": {
-      "name": "Defensor Sporting",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/41c1d5fee5cb8e70b0bf80c08e3b4221.png"
+      "name": "Grêmio",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/926dda96d0cdb89cdb0d542df5c7ac82.png"
     },
-    "time": "21:30",
-    "championship": "Copa Libertadores - 1ª Rodada",
+    "time": "22:00",
+    "championship": "Campeonato Gaúcho - 1ª Fase - Rodada 5",
     "channels": [
-      "PARAMOUNT+"
+      "GLOBO RS",
+      "SPORTV",
+      "PREMIERE 2"
     ]
   }
 ]

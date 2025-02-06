@@ -1,28 +1,37 @@
-header{
+header {
     padding: 28px 8%;
     background-color: #333333;
     color: #f0ffff;
 }
-#navbar{
+
+#navbar {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
 }
-#nav-list{
+
+#logo::before {
+    content: 'PLAYTV';
+}
+
+#nav-list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
     list-style-type: none;
 }
-#nav-list a{
+
+#nav-list a {
     text-decoration: none;
     color: #f0ffff;
 }
-#menu-mobile{
+
+#menu-mobile {
     display: none;
 }
+
 /* From Uiverse.io by Li-Deheng */
 .search {
     --input-line: #cccccc;
@@ -141,21 +150,25 @@ header{
     top: 7px;
     right: 15px;
 }
-@media (max-width: 1024px){
-    #nav-list{
+
+@media (max-width: 1024px) {
+    #nav-list {
         display: none;
     }
-    #navbar{
+
+    #navbar {
         flex-wrap: wrap;
     }
-    #menu-mobile{
+
+    #menu-mobile {
         display: flex;
         color: #f0ffff;
         align-items: start;
         text-align: center;
         gap: 20px;
     }
-    #menu-mobile button{
+
+    #menu-mobile button {
         background: none;
         color: #f0ffff;
         font-size: 1.5rem;

@@ -138,7 +138,7 @@ async function generateHTML() {
                             </div>
 
                             <div id="logo">
-                                <i class="fa-solid fa-play"> playtv</i>
+                                <i class="fa-solid fa-play"></i>
                             </div>
 
                             <div class="search">

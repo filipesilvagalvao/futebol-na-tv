@@ -1,105 +1,4 @@
-const path = require('path'); // Carrega o módulo 'path' para facilitar a manipulação de caminhos no projeto
-const puppeteer = require('puppeteer'); // Importa o Puppeteer para automação de navegadores, webscrapping
-const fs = require('fs');  // Importa o módulo fs para escrever o arquivo JSON
 
-//função que rola a página para carregá-la
-async function autoScroll(page) {
-    await page.evaluate(async () => {
-        await new Promise((resolve) => {
-            let totalHeight = 0;
-            const distance = 300; // Distância a ser rolada por vez
-            const timer = setInterval(() => {
-                const scrollHeight = document.body.scrollHeight;
-                window.scrollBy(0, distance);
-                totalHeight += distance;
-
-                if (totalHeight >= scrollHeight) {
-                    clearInterval(timer);
-                    resolve();
-                }
-            }, 300); // Tempo entre os scrolls
-        });
-    });
-}
-
-async function scrap() {
-    const browser = await puppeteer.launch({ headless: 'new' });
-    const page = await browser.newPage();
-
-    try {
-        await page.goto('https://www.futebolnatv.com.br/jogos-hoje/', { waitUntil: 'networkidle2' });
-
-        // Rola a página para carregar todas as imagens
-        await autoScroll(page);
-
-        const result = await page.evaluate(() => {
-            const infoGames = [];
-            const games = document.querySelectorAll('.gamecard');
-
-            games.forEach((game) => {
-                const teams = game.querySelectorAll('.box_time_logo_title > img');
-                const time = game.querySelector('.box_time')?.innerText.trim() || 'Horário não disponível';
-                const championship = game.querySelector('.col-sm-8')?.innerText.trim() || 'Campeonato não encontrado'; // Nome do campeonato
-                const channels = Array.from(game.querySelectorAll('.bcmact > span')).map(channel => channel.innerText.trim());
-
-                infoGames.push({
-                    team1: {
-                        name: teams[0]?.alt || 'Desconhecido',
-                        logo: 'https://www.futebolnatv.com.br' + teams[0]?.getAttribute('src') || 'https://www.futebolnatv.com.br' + teams[0]?.getAttribute('data-src') || 'Sem imagem'
-                    },
-                    team2: {
-                        name: teams[1]?.alt || 'Desconhecido',
-                        logo: 'https://www.futebolnatv.com.br' + teams[1]?.getAttribute('src') || 'https://www.futebolnatv.com.br' + teams[1]?.getAttribute('data-src') || 'Sem imagem'
-                    },
-                    time,
-                    championship,
-                    channels: channels.length > 0 ? channels : ['Nenhum canal disponível']
-                });
-            });
-
-            return infoGames;
-        });
-
-        // Escreve o arquivo JSON no diretório atual
-        fs.writeFileSync('jogos.json', JSON.stringify(result, null, 2));
-    } catch (error) {
-        console.error('Erro ao fazer scraping:', error);
-    } finally {
-        await browser.close();
-    }
-}
-
-scrap();
-
-// Função para ler o arquivo JSON e gerar as páginas HTML
-async function generateHTML() {
-    try {
-        // Lê o arquivo JSON
-        const data = fs.readFileSync('jogos.json', 'utf8');
-        const jogos = JSON.parse(data); // Converte para objeto
-
-        // Cria um diretório para armazenar os arquivos HTML, caso não exista
-        const dir = './jogos-de-hoje';
-        if (!fs.existsSync(dir)) {
-            fs.mkdirSync(dir);
-        }
-        // Itera sobre cada jogo e cria uma página HTML
-        jogos.forEach((jogo) => {
-            // Cria uma versão amigável do nome da partida para o nome da pasta
-            const nomeDaPartida = `${jogo.team1.name.replace(/\s+/g, '-').toLowerCase()}-vs-${jogo.team2.name.replace(/\s+/g, '-').toLowerCase()}`;
-
-            // Caminho completo para a pasta da partida
-            const partidaDir = path.join(dir, nomeDaPartida);
-
-            // Cria a pasta para a partida, caso não exista
-            if (!fs.existsSync(partidaDir)) {
-                fs.mkdirSync(partidaDir);
-            }
-            //cria a lista de canais em html <li>
-            let liS = jogo.channels.map((e) => {
-                return `<li>${e}</li>`
-            }).join('')
-            const htmlContent = `
                 <!DOCTYPE html>
                 <html lang="pt-br">
                 <head>
@@ -111,7 +10,7 @@ async function generateHTML() {
 
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
                     <script type="module" src="/src/javascript/codes.js" defer></script>
-                    <title>${jogo.team1.name} vs ${jogo.team2.name}</title>
+                    <title>Joinville vs Marcílio Dias</title>
                 </head>
                 <body>
                     <header>
@@ -163,7 +62,7 @@ async function generateHTML() {
                     </header>
                     <main>
                         <article class="game-match">
-                            <h1>Assistir ${jogo.team1.name} x ${jogo.team2.name} ao vivo</h1>
+                            <h1>Assistir Joinville x Marcílio Dias ao vivo</h1>
                             
                             <div id="screen-video">
                                 <div id="loading"><span>CARREGANDO PLAYER...</span></div>
@@ -173,13 +72,13 @@ async function generateHTML() {
                                 </div>
                             </div>
                             <section id="text-content">
-                                <h2>Onde assistir ${jogo.team1.name} x ${jogo.team2.name} hoje?</h2>
+                                <h2>Onde assistir Joinville x Marcílio Dias hoje?</h2>
                                 <p>Fique atento aos canais e horários abaixo:</p>
                                 <ul>
-                                    <li><strong>Horário:</strong> <time datetime="${jogo.time}">${jogo.time}h</time></li>
+                                    <li><strong>Horário:</strong> <time datetime="20:00">20:00h</time></li>
                                     <li><strong>Canais de transmissão:</strong></li>
                                     <ul>
-                                        ${liS}
+                                        <li>ZAPPING TV</li><li>NSPORTS</li><li>YOUTUBE FCF TV SC</li>
                                     </ul>
                                 </ul>
                             </section>
@@ -220,21 +119,4 @@ async function generateHTML() {
                     </script>
                 </body>
                 </html>
-            `;
-
-            // Caminho para salvar o arquivo index.html dentro da pasta da partida
-            const filePath = path.join(partidaDir, 'index.html');
-
-            // Cria o arquivo index.html
-            fs.writeFileSync(filePath, htmlContent, 'utf8');
-            console.log(`Página criada: ${filePath}`);
-        });
-
-    } catch (error) {
-        console.error('Erro ao gerar as páginas HTML:', error);
-    }
-
-}
-
-// Chama a função para gerar as páginas HTML
-generateHTML();
+            

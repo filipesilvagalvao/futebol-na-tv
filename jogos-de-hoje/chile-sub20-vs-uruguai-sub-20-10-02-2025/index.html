@@ -10,7 +10,7 @@
 
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
                     <script type="module" src="/src/javascript/codes.js" defer></script>
-                    <title>Madureira vs Sampaio Corrêa-RJ</title>
+                    <title>Chile Sub20 vs Uruguai Sub-20</title>
                 </head>
                 <body>
                     <header>
@@ -62,7 +62,7 @@
                     </header>
                     <main>
                         <article class="game-match">
-                            <h1>Assistir Madureira x Sampaio Corrêa-RJ ao vivo</h1>
+                            <h1>Assistir Chile Sub20 x Uruguai Sub-20 ao vivo</h1>
                             
                             <div id="screen-video">
                                 <div id="loading"><span>CARREGANDO PLAYER...</span></div>
@@ -72,13 +72,13 @@
                                 </div>
                             </div>
                             <section id="text-content">
-                                <h2>Onde assistir Madureira x Sampaio Corrêa-RJ hoje?</h2>
+                                <h2>Onde assistir Chile Sub20 x Uruguai Sub-20 hoje?</h2>
                                 <p>Fique atento aos canais e horários abaixo:</p>
                                 <ul>
-                                    <li><strong>Horário:</strong> <time datetime="16:00">16:00h</time></li>
+                                    <li><strong>Horário:</strong> <time datetime="22:00">22:00h</time></li>
                                     <li><strong>Canais de transmissão:</strong></li>
                                     <ul>
-                                        <li>BANDSPORTS</li><li>CANAL GOAT</li>
+                                        <li>SPORTV</li>
                                     </ul>
                                 </ul>
                             </section>
@@ -109,10 +109,12 @@
                                             })
                                         })
 
+                                    }else{
+                                        iframe.allow = 'autoplay'
+                                        iframe.src = '/videos/aviso.html'
                                     }
-                                    
+                                    loading.style.display = 'none' 
                                 });
-                                loading.style.display = 'none'
                                 iframe.src = btnSinals.querySelectorAll('button')[0].value
                             }
                         }, 500);

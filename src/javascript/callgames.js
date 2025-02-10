@@ -203,6 +203,17 @@ export function madeGames() {
       }
       ]
 
+      // Cria um novo objeto Date com a data atual
+      const dataAtual = new Date();
+
+      // Obtém o dia, mês e ano
+      const dia = String(dataAtual.getDate()).padStart(2, '0'); // Adiciona um zero à esquerda se necessário
+      const mes = String(dataAtual.getMonth() + 1).padStart(2, '0'); // Os meses começam do 0, então adicionamos 1
+      const ano = dataAtual.getFullYear();
+
+      // Formata a data no formato desejado
+      const dataFormatada = `${dia}-${mes}-${ano}`;
+
       //json com dados puxados do futebolnatv.com
       const URL = '/jogos.json'
 
@@ -250,7 +261,7 @@ export function madeGames() {
                   playFilter.forEach((element) => {
 
                         const a = document.createElement('a')
-                        a.href = `/jogos-de-hoje/${element.teams[0].name.replace(/\s+/g, '-').toLowerCase()}-vs-${element.teams[1].name.replace(/\s+/g, '-').toLowerCase()}/`
+                        a.href = `/jogos-de-hoje/${element.teams[0].name.replace(/\s+/g, '-').toLowerCase()}-vs-${element.teams[1].name.replace(/\s+/g, '-').toLowerCase()}-${dataFormatada}/`
                         const h3 = document.createElement('h3')
                         h3.innerText = `${element.teams[0].name} - ${element.teams[1].name}`
 

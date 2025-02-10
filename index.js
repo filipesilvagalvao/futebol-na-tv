@@ -71,6 +71,18 @@ async function scrap() {
 
 scrap();
 
+// Cria um novo objeto Date com a data atual
+const dataAtual = new Date();
+
+// Obtém o dia, mês e ano
+const dia = String(dataAtual.getDate()).padStart(2, '0'); // Adiciona um zero à esquerda se necessário
+const mes = String(dataAtual.getMonth() + 1).padStart(2, '0'); // Os meses começam do 0, então adicionamos 1
+const ano = dataAtual.getFullYear();
+
+// Formata a data no formato desejado
+const dataFormatada = `${dia}-${mes}-${ano}`;
+
+
 // Função para ler o arquivo JSON e gerar as páginas HTML
 async function generateHTML() {
     try {
@@ -85,8 +97,11 @@ async function generateHTML() {
         }
         // Itera sobre cada jogo e cria uma página HTML
         jogos.forEach((jogo) => {
+            if(jogo.team1.name !== 'Desconhecido' || jogo.channels[0] !== 'Nenhum canal disponível'){
+
+            
             // Cria uma versão amigável do nome da partida para o nome da pasta
-            const nomeDaPartida = `${jogo.team1.name.replace(/\s+/g, '-').toLowerCase()}-vs-${jogo.team2.name.replace(/\s+/g, '-').toLowerCase()}`;
+            const nomeDaPartida = `${jogo.team1.name.replace(/\s+/g, '-').toLowerCase()}-vs-${jogo.team2.name.replace(/\s+/g, '-').toLowerCase()}-${dataFormatada}`;
 
             // Caminho completo para a pasta da partida
             const partidaDir = path.join(dir, nomeDaPartida);
@@ -210,10 +225,12 @@ async function generateHTML() {
                                             })
                                         })
 
+                                    }else{
+                                        iframe.allow = 'autoplay'
+                                        iframe.src = '/videos/aviso.html'
                                     }
-                                    
+                                    loading.style.display = 'none' 
                                 });
-                                loading.style.display = 'none'
                                 iframe.src = btnSinals.querySelectorAll('button')[0].value
                             }
                         }, 500);
@@ -221,6 +238,7 @@ async function generateHTML() {
                 </body>
                 </html>
             `;
+        
 
             // Caminho para salvar o arquivo index.html dentro da pasta da partida
             const filePath = path.join(partidaDir, 'index.html');
@@ -228,7 +246,7 @@ async function generateHTML() {
             // Cria o arquivo index.html
             fs.writeFileSync(filePath, htmlContent, 'utf8');
             console.log(`Página criada: ${filePath}`);
-        });
+        }});
 
     } catch (error) {
         console.error('Erro ao gerar as páginas HTML:', error);

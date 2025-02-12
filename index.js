@@ -1,6 +1,6 @@
-const path = require('path'); // Carrega o módulo 'path' para facilitar a manipulação de caminhos no projeto
-const puppeteer = require('puppeteer'); // Importa o Puppeteer para automação de navegadores, webscrapping
-const fs = require('fs');  // Importa o módulo fs para escrever o arquivo JSON
+import path from 'path'; // Carrega o módulo 'path' para facilitar a manipulação de caminhos no projeto
+import puppeteer from 'puppeteer'; // Importa o Puppeteer para automação de navegadores, webscrapping
+import fs from 'fs';  // Importa o módulo fs para escrever o arquivo JSON
 
 //função que rola a página para carregá-la
 async function autoScroll(page) {

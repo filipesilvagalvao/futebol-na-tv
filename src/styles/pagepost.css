@@ -1,4 +1,4 @@
-.game-match{
+.game-match {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,21 +6,42 @@
     gap: 90px;
     margin-top: 30px;
 }
-.game-match h1, .game-match h2{
+
+.game-match h1,
+.game-match h2 {
     text-align: center;
     margin-bottom: 30px;
 }
-#screen-video iframe{
+
+#screen-video iframe {
     width: 100%;
     max-width: 1000px;
     height: auto;
     aspect-ratio: 16/9;
 }
-#screen-video{
+
+#screen-video {
+    position: relative;
     width: 100%;
     text-align: center;
 }
-#btn-sinals{
+
+/*loader*/
+#loading {
+    position: absolute;
+    z-index: 3;
+    top: 40%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+#loading>span {
+    background-color: rgba(38, 139, 197, 0.418);
+    padding: 12px;
+    white-space: nowrap
+}
+
+#btn-sinals {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -29,7 +50,7 @@
     flex-wrap: wrap;
 }
 
-#btn-sinals>button{
+#btn-sinals>button {
     height: 40px;
     width: 100px;
     border-radius: 5px;
@@ -41,18 +62,44 @@
     transition: background-color 0.3s;
 }
 
-#btn-sinals>button:hover{
+#btn-sinals>button:hover {
     background-color: rgb(36, 214, 36);
     color: rgb(54, 54, 54);
 }
 
-#text-content{
+#text-content {
     display: flex;
     flex-direction: column;
     justify-content: left;
     text-align: left;
     gap: 30px;
 }
-#text-content li{
+
+#text-content li {
     margin-bottom: 15px;
+}
+
+#text-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+#title-channel{
+    margin-bottom: 30px;
+}
+.logo-channel {
+    width: min(20%, 100px);
+    height: auto;
+    margin-top: 30px;
+}
+
+.channel-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #00000086;
+    padding: 1%;
+    border-radius: 10px;
 }

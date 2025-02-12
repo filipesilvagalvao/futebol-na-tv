@@ -16,6 +16,12 @@ export function madeGames() {
             ]
       },
       {
+            channel: 'SBT',
+            links: [
+                  'https://embedmax.site/tvl/sbt.php'
+            ]
+      },
+      {
             channel: 'GE.GLOBO RJ',
             links: [
                   'https://embedmax.site/tvl/globoRJ.php',
@@ -294,6 +300,8 @@ export function madeGames() {
                   });
             }
             window.playFilter = playFilter
+            window.channels = channels
+            console.log(channels)
       }
       callGames()
 }

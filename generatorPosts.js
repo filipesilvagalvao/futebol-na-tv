@@ -9,7 +9,7 @@ dotenv.config();
 // Obter o diretório atual quando usando módulos ES
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const channelsToGenerate = ['ESPN', 'ESPN 2', 'ESPN 3', 'ESPN 4', 'BANDSPORTS', 'PREMIERE', 'PREMIERE 2', 'PREMIERE 3', 'PREMIERE 4', 'CAZÉ TV', 'SPORTV 1', 'SPORTV 2', 'SPORTV 3', 'RECORD', 'TV BRASIL', 'RECORD NEWS', 'WARNERTV', 'MEGAPIX', 'DISCOVERY CHANNEL', 'AXN', 'CARTOON NETWORK'];
+const channelsToGenerate = ['Combate'];
 const listOfTexts = [];
 
 // Função para gerar as páginas HTML
@@ -22,7 +22,7 @@ async function generatePages() {
         listOfTexts.push(text);
 
         // Criando o diretório para o canal
-        const channelDir = path.join(__dirname, 'canais', channel.toLowerCase());
+        const channelDir = path.join(__dirname, 'canais', channel.toLowerCase().replace(/\s+/g, "-"));
         await fs.mkdir(channelDir, { recursive: true });
 
         // Conteúdo do arquivo HTML
@@ -93,7 +93,7 @@ async function generatePages() {
                 <div id="btn-sinals"></div>
             </div>
             <div id="text-post">
-                <img src="/src/images/thumb-channel/${channel.toLowerCase()}.png" alt="logo ${channel.toLowerCase()}" class="logo-channel">
+                <img src="/src/images/thumb-channel/${channel.toLowerCase().replace(/\s+/g, "-")}.png" alt="logo ${channel.toLowerCase()}" class="logo-channel">
                 <p>${text}</p>
             </div>
         </article>
@@ -108,7 +108,7 @@ async function generatePages() {
         const iframe = document.querySelector('iframe');
         const loading = document.querySelector('#loading');
 
-        const nameOfChannel = document.querySelector('#title-channel').dataset.channel;
+        const nameOfChannel = document.querySelector('#title-channel').dataset.channel.toUpperCase();
 
         console.log(nameOfChannel);
         const wait = setInterval(() => {

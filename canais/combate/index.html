@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="/src/images/playtv-logo.png" type="image/png">
     <script type="module" src="/src/javascript/codes.js" defer></script>
-    <title>CARTOON NETWORK ao vivo</title>
+    <title>Combate ao vivo</title>
 </head>
 <body>
     <header>
@@ -58,15 +58,15 @@
     </header>
     <main>
         <article class="channel-post">
-            <h1 data-channel="CARTOON NETWORK" id="title-channel">Assistir CARTOON NETWORK ao vivo grátis</h1>
+            <h1 data-channel="Combate" id="title-channel">Assistir Combate ao vivo grátis</h1>
             <div id="screen-video">
                 <div id="loading"><span>CARREGANDO PLAYER...</span></div>
                 <iframe src="" allowfullscreen allow="encrypted-media" frameborder="0"></iframe>
                 <div id="btn-sinals"></div>
             </div>
             <div id="text-post">
-                <img src="/src/images/thumb-channel/cartoonnetwork.png" alt="logo cartoon network" class="logo-channel">
-                <p>Assistir CARTOON NETWORK ao vivo é a chance de se conectar a um universo de animação fascinante e envolvente, totalmente designado para nutrir a imaginação e a criatividade da audiência jovem e de todos aqueles que a amam. Este canal de TV tem sido um marco importante no mundo do entretenimento infantil, já que foi pioneiro em trazer algumas das animações mais amadas e inovadoras para o público mundial. De "As Meninas Superpoderosas" a "Hora de Aventura", "Ben 10" e "Steven Universo", o CARTOON NETWORK oferece uma variedade de conteúdo que vai além do simples entretenimento, sempre engajado em embelezar a divertida aprendizagem interativa, fazendo do ato de assistir CARTOON NETWORK ao vivo uma experiência verdadeiramente enriquecedora.</p>
+                <img src="/src/images/thumb-channel/combate.png" alt="logo combate" class="logo-channel">
+                <p>O canal Combate é a principal referência para os fãs de artes marciais e lutas em geral, transmitindo eventos e competições renomadas, como o UFC, com exclusividade no Brasil. Além de oferecer uma programação cheia de confrontos emocionantes, treinos e bastidores, o Combate também permite assistir seus conteúdos ao vivo e em alta definição através do seu serviço de streaming. Assim, para os admiradores desse universo, assistir Combate ao vivo é uma experiência repleta de adrenalina, oferecendo uma visão privilegiada de combates eletrizantes protagonizados pelos maiores lutadores do cenário mundial. Isto torna o canal um ponto de encontro essencial para quem busca a emoção das competições de artes marciais.</p>
             </div>
         </article>
     </main>
@@ -80,7 +80,7 @@
         const iframe = document.querySelector('iframe');
         const loading = document.querySelector('#loading');
 
-        const nameOfChannel = document.querySelector('#title-channel').dataset.channel;
+        const nameOfChannel = document.querySelector('#title-channel').dataset.channel.toUpperCase();
 
         console.log(nameOfChannel);
         const wait = setInterval(() => {

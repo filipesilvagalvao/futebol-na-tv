@@ -1,0 +1,160 @@
+[
+  {
+    "category": {
+      "category": "Abertos",
+      "channels": [
+        {
+          "name": "globo",
+          "url": "/canais/globo/",
+          "logo": "/images/thumb-channel/globo.png"
+        },
+        {
+          "name": "SBT",
+          "url": "/canais/sbt/",
+          "logo": "/images/thumb-channel/sbt.png"
+        },
+        {
+          "name": "RecordTV",
+          "url": "/canais/recordtv/",
+          "logo": "/images/thumb-channel/recordtv.png"
+        },
+        {
+          "name": "band",
+          "url": "/canais/band/",
+          "logo": "/images/thumb-channel/band.png"
+        },
+        {
+          "name": "tv brasil",
+          "url": "/canais/tv-brasil/",
+          "logo": "/images/thumb-channel/tv-brasil.png"
+        }
+      ]
+    }
+  },
+  {
+    "category": {
+      "category": "Esportes",
+      "channels": [
+        {
+          "name": "bandsports",
+          "url": "/canais/bandsports/",
+          "logo": "/images/thumb-channel/bandsports.png"
+        },
+        {
+          "name": "cazéTV",
+          "url": "/canais/cazétv/",
+          "logo": "/images/thumb-channel/cazétv.png"
+        },
+        {
+          "name": "combate",
+          "url": "/canais/combate/",
+          "logo": "/images/thumb-channel/combate.png"
+        },
+        {
+          "name": "espn",
+          "url": "/canais/espn/",
+          "logo": "/images/thumb-channel/espn.png"
+        },
+        {
+          "name": "espn 2",
+          "url": "/canais/espn-2/",
+          "logo": "/images/thumb-channel/espn-2.png"
+        },
+        {
+          "name": "espn 3",
+          "url": "/canais/espn-3/",
+          "logo": "/images/thumb-channel/espn-3.png"
+        },
+        {
+          "name": "espn 4",
+          "url": "/canais/espn-4/",
+          "logo": "/images/thumb-channel/espn-4.png"
+        },
+        {
+          "name": "premiere clubes",
+          "url": "/canais/premiere-clubes/",
+          "logo": "/images/thumb-channel/premiere-clubes.png"
+        },
+        {
+          "name": "premiere 2",
+          "url": "/canais/premiere-2/",
+          "logo": "/images/thumb-channel/premiere-2.png"
+        },
+        {
+          "name": "premire 3",
+          "url": "/canais/premire-3/",
+          "logo": "/images/thumb-channel/premire-3.png"
+        },
+        {
+          "name": "premiere 4",
+          "url": "/canais/premiere-4/",
+          "logo": "/images/thumb-channel/premiere-4.png"
+        },
+        {
+          "name": "sportv 1",
+          "url": "/canais/sportv-1/",
+          "logo": "/images/thumb-channel/sportv-1.png"
+        },
+        {
+          "name": "sportv 2",
+          "url": "/canais/sportv-2/",
+          "logo": "/images/thumb-channel/sportv-2.png"
+        },
+        {
+          "name": "sportv 3",
+          "url": "/canais/sportv-3/",
+          "logo": "/images/thumb-channel/sportv-3.png"
+        }
+      ]
+    }
+  },
+  {
+    "category": {
+      "category": "Entretenimento",
+      "channels": [
+        {
+          "name": "axn",
+          "url": "/canais/axn/",
+          "logo": "/images/thumb-channel/axn.png"
+        },
+        {
+          "name": "cartoon network",
+          "url": "/canais/cartoon-network/",
+          "logo": "/images/thumb-channel/cartoon-network.png"
+        },
+        {
+          "name": "discovery channel",
+          "url": "/canais/discovery-channel/",
+          "logo": "/images/thumb-channel/discovery-channel.png"
+        },
+        {
+          "name": "megapix",
+          "url": "/canais/megapix/",
+          "logo": "/images/thumb-channel/megapix.png"
+        },
+        {
+          "name": "warnertv",
+          "url": "/canais/warnertv/",
+          "logo": "/images/thumb-channel/warnertv.png"
+        }
+      ]
+    }
+  },
+  {
+    "category": {
+      "category": "Notícias",
+      "channels": [
+        {
+          "name": "band news",
+          "url": "/canais/band-news/",
+          "logo": "/images/thumb-channel/band-news.png"
+        },
+        {
+          "name": "record news",
+          "url": "/canais/record-news/",
+          "logo": "/images/thumb-channel/record-news.png"
+        }
+      ]
+    }
+  }
+]

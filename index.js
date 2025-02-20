@@ -133,7 +133,7 @@ async function generateHTML() {
                     <header>
                         <nav id="navbar">
                             <ul id="nav-list">
-                                <li><a href="/index.html">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li><a href="/todos-os-canais#abertos">Abertos</a></li>
                                 <li><a href="/todos-os-canais#esportes">Esportes</a></li>
                                 <li><a href="/todos-os-canais#entretenimento">Entretenimento</a></li>
@@ -144,7 +144,7 @@ async function generateHTML() {
                                 <button><i class="fa-solid fa-bars"></i></button>
                                 <div>
                                     <ul id="nav-list-mobile" class="hide">
-                                        <li><a href="/index.html">Home</a></li>
+                                        <li><a href="/">Home</a></li>
                                         <li><a href="/todos-os-canais#abertos">Abertos</a></li>
                                         <li><a href="/todos-os-canais#esportes">Esportes</a></li>
                                         <li><a href="/todos-os-canais#entretenimento">Entretenimento</a></li>

@@ -87,7 +87,7 @@ const generatePageHTML = (allContents) => {
             <header>
                 <nav id="navbar">
                     <ul id="nav-list">
-                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="#">Abertos</a></li>
                         <li><a href="#">Esportes</a></li>
                         <li><a href="#">Entretenimento</a></li>
@@ -97,7 +97,7 @@ const generatePageHTML = (allContents) => {
                         <button><i class="fa-solid fa-bars"></i></button>
                         <div>
                             <ul id="nav-list-mobile" class="hide">
-                                <li><a href="/index.html">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li><a href="#">Abertos</a></li>
                                 <li><a href="#">Esportes</a></li>
                                 <li><a href="#">Entretenimento</a></li>

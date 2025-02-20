@@ -3,7 +3,7 @@ import path from 'path';
 
 // Arrays de canais
 const abertos = ['globo', 'SBT', 'RecordTV', 'band', 'tv brasil'];
-const esportes = ['bandsports', 'cazéTV', 'combate', 'espn', 'espn 2', 'espn 3', 'espn 4', 'premiere clubes', 'premiere 2', 'premire 3', 'premiere 4', 'sportv 1', 'sportv 2', 'sportv 3'];
+const esportes = ['bandsports', 'cazéTV', 'combate', 'espn', 'espn 2', 'espn 3', 'espn 4', 'premiere clubes', 'premiere 2', 'premiere 3', 'premiere 4', 'sportv 1', 'sportv 2', 'sportv 3'];
 const entretenimento = ['axn', 'cartoon network', 'discovery channel', 'megapix', 'warnertv'];
 const noticias = ['band news', 'record news'];
 
@@ -25,7 +25,7 @@ class PostChannel {
 
     generator(arrChannels) {
         arrChannels.forEach((c) => {
-            this.channels.push(new Channel(c, `/canais/${c.toLowerCase().replace(/\s+/g, "-")}/`, `/src/images/thumb-channel/${c.toLowerCase().replace(/\s+/g, "-")}.png`));
+            this.channels.push(new Channel(c, `/canais/${c.toLowerCase().replace(/\s+/g, "-")}/`, `/src/images/thumb-channel/${c.toLowerCase().replace(/\s+/g, "-")}.webp`));
         });
     }
 }
@@ -79,7 +79,7 @@ const generatePageHTML = (allContents) => {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                 integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
                 crossorigin="anonymous" referrerpolicy="no-referrer" />
-            <link rel="shortcut icon" href="/src/images/playtv-logo.png" type="image/png">
+            <link rel="shortcut icon" href="/src/images/playtv-logo.webp" type="image/png">
             <script type="module" src="/src/javascript/codes.js" defer></script>
             <title>Todos os canais</title>
         </head>

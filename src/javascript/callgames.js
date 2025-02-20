@@ -228,7 +228,7 @@ export function madeGames() {
             let obj = ''
             if (resp.status === 200) {
                   obj = await resp.json()
-                  console.log(obj)
+                  //console.log(obj)
             }
 
             let playFilter = []
@@ -260,7 +260,7 @@ export function madeGames() {
                   }
             });
 
-            console.log(playFilter)
+            //console.log(playFilter)
 
             const gridPlaySoccer = document.querySelector('#grid-play-soccer')
             if (gridPlaySoccer != null) {
@@ -301,7 +301,7 @@ export function madeGames() {
             }
             window.playFilter = playFilter
             window.channels = channels
-            console.log(channels)
+            //console.log(channels)
       }
       callGames()
 }

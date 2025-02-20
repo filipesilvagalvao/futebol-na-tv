@@ -9,7 +9,7 @@ dotenv.config();
 // Obter o diretório atual quando usando módulos ES
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const channelsToGenerate = ['Combate'];
+const channelsToGenerate = [];
 const listOfTexts = [];
 
 // Função para gerar as páginas HTML

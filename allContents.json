@@ -6,27 +6,27 @@
         {
           "name": "globo",
           "url": "/canais/globo/",
-          "logo": "/images/thumb-channel/globo.png"
+          "logo": "/src/images/thumb-channel/globo.webp"
         },
         {
           "name": "SBT",
           "url": "/canais/sbt/",
-          "logo": "/images/thumb-channel/sbt.png"
+          "logo": "/src/images/thumb-channel/sbt.webp"
         },
         {
           "name": "RecordTV",
           "url": "/canais/recordtv/",
-          "logo": "/images/thumb-channel/recordtv.png"
+          "logo": "/src/images/thumb-channel/recordtv.webp"
         },
         {
           "name": "band",
           "url": "/canais/band/",
-          "logo": "/images/thumb-channel/band.png"
+          "logo": "/src/images/thumb-channel/band.webp"
         },
         {
           "name": "tv brasil",
           "url": "/canais/tv-brasil/",
-          "logo": "/images/thumb-channel/tv-brasil.png"
+          "logo": "/src/images/thumb-channel/tv-brasil.webp"
         }
       ]
     }
@@ -38,72 +38,72 @@
         {
           "name": "bandsports",
           "url": "/canais/bandsports/",
-          "logo": "/images/thumb-channel/bandsports.png"
+          "logo": "/src/images/thumb-channel/bandsports.webp"
         },
         {
           "name": "cazéTV",
           "url": "/canais/cazétv/",
-          "logo": "/images/thumb-channel/cazétv.png"
+          "logo": "/src/images/thumb-channel/cazétv.webp"
         },
         {
           "name": "combate",
           "url": "/canais/combate/",
-          "logo": "/images/thumb-channel/combate.png"
+          "logo": "/src/images/thumb-channel/combate.webp"
         },
         {
           "name": "espn",
           "url": "/canais/espn/",
-          "logo": "/images/thumb-channel/espn.png"
+          "logo": "/src/images/thumb-channel/espn.webp"
         },
         {
           "name": "espn 2",
           "url": "/canais/espn-2/",
-          "logo": "/images/thumb-channel/espn-2.png"
+          "logo": "/src/images/thumb-channel/espn-2.webp"
         },
         {
           "name": "espn 3",
           "url": "/canais/espn-3/",
-          "logo": "/images/thumb-channel/espn-3.png"
+          "logo": "/src/images/thumb-channel/espn-3.webp"
         },
         {
           "name": "espn 4",
           "url": "/canais/espn-4/",
-          "logo": "/images/thumb-channel/espn-4.png"
+          "logo": "/src/images/thumb-channel/espn-4.webp"
         },
         {
           "name": "premiere clubes",
           "url": "/canais/premiere-clubes/",
-          "logo": "/images/thumb-channel/premiere-clubes.png"
+          "logo": "/src/images/thumb-channel/premiere-clubes.webp"
         },
         {
           "name": "premiere 2",
           "url": "/canais/premiere-2/",
-          "logo": "/images/thumb-channel/premiere-2.png"
+          "logo": "/src/images/thumb-channel/premiere-2.webp"
         },
         {
           "name": "premire 3",
           "url": "/canais/premire-3/",
-          "logo": "/images/thumb-channel/premire-3.png"
+          "logo": "/src/images/thumb-channel/premire-3.webp"
         },
         {
           "name": "premiere 4",
           "url": "/canais/premiere-4/",
-          "logo": "/images/thumb-channel/premiere-4.png"
+          "logo": "/src/images/thumb-channel/premiere-4.webp"
         },
         {
           "name": "sportv 1",
           "url": "/canais/sportv-1/",
-          "logo": "/images/thumb-channel/sportv-1.png"
+          "logo": "/src/images/thumb-channel/sportv-1.webp"
         },
         {
           "name": "sportv 2",
           "url": "/canais/sportv-2/",
-          "logo": "/images/thumb-channel/sportv-2.png"
+          "logo": "/src/images/thumb-channel/sportv-2.webp"
         },
         {
           "name": "sportv 3",
           "url": "/canais/sportv-3/",
-          "logo": "/images/thumb-channel/sportv-3.png"
+          "logo": "/src/images/thumb-channel/sportv-3.webp"
         }
       ]
     }
@@ -115,27 +115,27 @@
         {
           "name": "axn",
           "url": "/canais/axn/",
-          "logo": "/images/thumb-channel/axn.png"
+          "logo": "/src/images/thumb-channel/axn.webp"
         },
         {
           "name": "cartoon network",
           "url": "/canais/cartoon-network/",
-          "logo": "/images/thumb-channel/cartoon-network.png"
+          "logo": "/src/images/thumb-channel/cartoon-network.webp"
         },
         {
           "name": "discovery channel",
           "url": "/canais/discovery-channel/",
-          "logo": "/images/thumb-channel/discovery-channel.png"
+          "logo": "/src/images/thumb-channel/discovery-channel.webp"
         },
         {
           "name": "megapix",
           "url": "/canais/megapix/",
-          "logo": "/images/thumb-channel/megapix.png"
+          "logo": "/src/images/thumb-channel/megapix.webp"
         },
         {
           "name": "warnertv",
           "url": "/canais/warnertv/",
-          "logo": "/images/thumb-channel/warnertv.png"
+          "logo": "/src/images/thumb-channel/warnertv.webp"
         }
       ]
     }
@@ -147,12 +147,12 @@
         {
           "name": "band news",
           "url": "/canais/band-news/",
-          "logo": "/images/thumb-channel/band-news.png"
+          "logo": "/src/images/thumb-channel/band-news.webp"
         },
         {
           "name": "record news",
           "url": "/canais/record-news/",
-          "logo": "/images/thumb-channel/record-news.png"
+          "logo": "/src/images/thumb-channel/record-news.webp"
         }
       ]
     }

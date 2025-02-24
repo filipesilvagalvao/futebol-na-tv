@@ -6,6 +6,7 @@
 @import url(./pagepost.css);
 @import url(./footer.css);
 @import url(./allchannels.css);
+@import url(./results.css);
 
 * {
     padding: 0;
@@ -43,6 +44,7 @@ li {
 body {
     background-image: url('/src/images/dark-denim.png');
     background-color: rgb(0, 0, 0);
+    position: relative;
 }
 
 .grid-articles{

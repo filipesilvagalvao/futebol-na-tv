@@ -202,6 +202,11 @@ async function generateHTML() {
                         </article>
                     </main>
                     <footer><div><p>&copy; Todos os direitos reservados - 2025 - PlayTV Online</p></div></footer>
+                    <div id="results" style="display: none;">
+                        <div id="content-results">
+                            <button><i class="fa-solid fa-x"></i></button>
+                        </div>
+                    </div>
                     <script>
                         const btnSinals = document.querySelector('#btn-sinals')
                         const iframe = document.querySelector('iframe')

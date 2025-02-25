@@ -1,31 +1,30 @@
 [
   {
     "team1": {
-      "name": "Galatasaray",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/95c8588661f1802949bc05dedb69e616.png"
+      "name": "Al Wehda",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/06806f1768a54861c1bb143c13ef2a6a.png"
     },
     "team2": {
-      "name": "Fenerbahce",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/6894ddc61593a909d242d80a1bb394c0.png"
+      "name": "Al-Nassr",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/b159d7d40e0cce98efe60956e5f67ff6.png"
     },
-    "time": "14:00",
-    "championship": "Campeonato Turco - Rodada 25",
+    "time": "13:00",
+    "championship": "Campeonato Saudita - Rodada 22",
     "channels": [
-      "ESPN 4",
-      "DISNEY+ PREMIUM"
+      "CANAL GOAT"
     ]
   },
   {
     "team1": {
-      "name": "Roma",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/8338567664cf1e42e7220fc262379bb6.png"
+      "name": "Alemanha (F)",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/uuTf2mH2SdrC11tf0ajqi6Ah2zk2N5OYO3EyDqjp.png"
     },
     "team2": {
-      "name": "Monza",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/1ca0c80e3f5da8834f621407ad64e94c.png"
+      "name": "Austria (F)",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/36639af0f5d5c0ee53915d0597f4fda3.png"
     },
-    "time": "16:45",
-    "championship": "Campeonato Italiano - Rodada 26",
+    "time": "14:15",
+    "championship": "UEFA Nations League (F) - League A - 2",
     "channels": [
       "ESPN 4",
       "DISNEY+ PREMIUM"
@@ -48,15 +47,30 @@
   },
   {
     "team1": {
-      "name": "Sheffield Utd",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/25ec26b8809d2bb0c0890ce6d3c7ab56.png"
+      "name": "Al-Ahli Jeddah",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/835168be5445b5efb8d8be6c6e39845a.png"
     },
     "team2": {
-      "name": "Leeds",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/287e359a1efdca022d683032316dd6dc.png"
+      "name": "Al-Qadisiyah FC",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/93f77a70b8da5d6403fd8337b3f4b2d2.png"
     },
-    "time": "17:00",
-    "championship": "Inglês 2ª Divisão - Rodada 34",
+    "time": "14:30",
+    "championship": "Campeonato Saudita - Rodada 22",
+    "channels": [
+      "CANAL GOAT"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Wolves",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/7d032c1b15dc3a0ae0b4a1d71a7da395.png"
+    },
+    "team2": {
+      "name": "Fulham",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/17ff6fe067e52061857e1c0f4cdb8663.png"
+    },
+    "time": "16:30",
+    "championship": "Campeonato Inglês - Rodada 27",
     "channels": [
       "ESPN 2",
       "DISNEY+ PREMIUM"
@@ -64,45 +78,135 @@
   },
   {
     "team1": {
-      "name": "Sevilla",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/84ecfdad232da85b99cca21703c5d9db.png"
+      "name": "Crystal Palace",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/62d6ff90229922170cac4f5cc0b177dd.png"
     },
     "team2": {
-      "name": "Mallorca",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/230fbcf5a7e19592e479ae04e4fcb4e1.png"
+      "name": "Aston Villa",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/0383e639b3cf1b6e48641c30f337056a.png"
     },
-    "time": "17:00",
-    "championship": "La Liga - Rodada 25",
+    "time": "16:30",
+    "championship": "Campeonato Inglês - Rodada 27",
     "channels": [
       "DISNEY+ PREMIUM"
     ]
   },
   {
     "team1": {
-      "name": "Barracas Central",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/c85e5fdca67da58013f7e4ea0a246b18.png"
+      "name": "Brighton",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/3a6e40064f548a4bb498932a1b85e03d.png"
     },
     "team2": {
-      "name": "Newells Old Boys",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/539abac5f851a883f239702cd7393b77.png"
+      "name": "Bournemouth",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/0f7368fc416277b124ab4afaed0527fc.png"
     },
-    "time": "17:00",
-    "championship": "Campeonato Argentino - 1ª Fase - Rodada 7",
+    "time": "16:30",
+    "championship": "Campeonato Inglês - Rodada 27",
     "channels": [
       "DISNEY+ PREMIUM"
     ]
   },
   {
     "team1": {
-      "name": "FC Porto",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/2e25accb30d27e4bedf5b087abe4aba6.png"
+      "name": "Eastleigh",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/66b614179c0e3ba5621dbaf489322521.png"
     },
     "team2": {
-      "name": "Guimaraes",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/19d6fe4ad18a9a23a178cd069d16bb28.png"
+      "name": "Gateshead",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/aded6e32eb38c1bdffcb067c63e7faa2.png"
     },
-    "time": "17:15",
-    "championship": "Campeonato Português - Rodada 23",
+    "time": "16:45",
+    "championship": "National League - Rodada 30",
+    "channels": [
+      "DAZN"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Tamworth",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/7f9faf88396d3e62ea26a720f88a3c4e.png"
+    },
+    "team2": {
+      "name": "Rochdale",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/b9595927ffa090be17905f240e9eb962.png"
+    },
+    "time": "16:45",
+    "championship": "National League - Rodada 26",
+    "channels": [
+      "DAZN"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "team2": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "time": "Horário não disponível",
+    "championship": "Campeonato não encontrado",
+    "channels": [
+      "Nenhum canal disponível"
+    ]
+  },
+  {
+    "team1": {
+      "name": "FC Halifax Town",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/6bce191e88e247eeb8039ec008f3c761.png"
+    },
+    "team2": {
+      "name": "Dagenham & Redbridge",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/82451d3674d14de48a41d33e4467043f.png"
+    },
+    "time": "16:45",
+    "championship": "National League - Rodada 28",
+    "channels": [
+      "DAZN"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Maidenhead",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/3faeafe68ee7c1fd23decc5def002247.png"
+    },
+    "team2": {
+      "name": "York",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/943e56c98d6dec4e82f782bb6bd276f0.png"
+    },
+    "time": "16:45",
+    "championship": "National League - Rodada 26",
+    "channels": [
+      "DAZN"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Aldershot Town",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/b4c44913e4a8106eb719e082e208d743.png"
+    },
+    "team2": {
+      "name": "Solihull Moors",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/9b8e03a379178ab08382a482aa086ab2.png"
+    },
+    "time": "16:45",
+    "championship": "National League - Rodada 26",
+    "channels": [
+      "DAZN"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Arminia Bielefeld",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/5dd6fd02dc369095b950f0b25f35aabb.png"
+    },
+    "team2": {
+      "name": "Werder Bremen",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/50c4005a791e0aff9c94e4ff51067414.png"
+    },
+    "time": "16:45",
+    "championship": "Copa da Alemanha - Quartas de Final",
     "channels": [
       "ESPN 3",
       "DISNEY+"
@@ -110,32 +214,307 @@
   },
   {
     "team1": {
-      "name": "Ypiranga-RS",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/2d5641ee51cc916d128949abcf1e7c0e.png"
+      "name": "Stoke City",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/dff8dcd00d7cb46b6a7aa3e3e7ff1b30.png"
     },
     "team2": {
-      "name": "Monsoon",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/6ba42c8b87a2a0627301966a4392a444.png"
+      "name": "Middlesbrough",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/d093e7934db066984ab201ed6688af2c.png"
     },
-    "time": "19:00",
-    "championship": "Campeonato Gaúcho - Taça Farroupilha - Semifinal",
+    "time": "16:45",
+    "championship": "Inglês 2ª Divisão - Rodada 31",
     "channels": [
-      "YOUTUBE GZH",
-      "GE.GLOBO RS"
+      "DISNEY+ PREMIUM"
     ]
   },
   {
     "team1": {
-      "name": "Tigre",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/77040416f4458ab24dd053d895d686c2.png"
+      "name": "Wealdstone",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/7770032fc96ada917c1565a6bfe4fecb.png"
     },
     "team2": {
-      "name": "Banfield",
-      "logo": "https://www.futebolnatv.com.br/upload/teams/ad1c6e65f04cd1d02f8a71c3279ececd.png"
+      "name": "Boston United",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/11aaef75fb6d418993484ebae66dbfd7.png"
     },
-    "time": "21:00",
-    "championship": "Campeonato Argentino - 1ª Fase - Rodada 7",
+    "time": "16:45",
+    "championship": "National League - Rodada 25",
     "channels": [
+      "DAZN"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "team2": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "time": "Horário não disponível",
+    "championship": "Campeonato não encontrado",
+    "channels": [
+      "Nenhum canal disponível"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Inter",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/e934ecd3fe3a8be7cb7035b0c52adc14.png"
+    },
+    "team2": {
+      "name": "Lazio",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/6a04f494972b27f48ea5a2d75dea498e.png"
+    },
+    "time": "17:00",
+    "championship": "Copa Itália - Quartas de Final",
+    "channels": [
+      "NSPORTS"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Celtic",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/eb863f62759eaf168a47a451cbe00af0.png"
+    },
+    "team2": {
+      "name": "Aberdeen",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/255edabd6b4dec6cf8aa3487c24e59f2.png"
+    },
+    "time": "17:00",
+    "championship": "Campeonato Escocês - 1ª Fase - Rodada 28",
+    "channels": [
+      "DISNEY+ PREMIUM"
+    ]
+  },
+  {
+    "team1": {
+      "name": "O Elvas",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/5f16ed21c17a272bf1dcf8a128e198bf.png"
+    },
+    "team2": {
+      "name": "Tirsense",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/780f0baab254797b70a81202777e08ee.png"
+    },
+    "time": "17:00",
+    "championship": "Taça de Portugal - Quartas de Final",
+    "channels": [
+      "NSPORTS"
+    ]
+  },
+  {
+    "team1": {
+      "name": "França (F)",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/x48pth1katznivL6MzTygQ1LIDHCI4rCjyjHPkbp.png"
+    },
+    "team2": {
+      "name": "Islândia (F)",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/e7f3538b4a7b014ab19e069d7f006018.png"
+    },
+    "time": "17:10",
+    "championship": "UEFA Nations League (F) - League A - 2",
+    "channels": [
+      "DISNEY+ PREMIUM"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "team2": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "time": "Horário não disponível",
+    "championship": "Campeonato não encontrado",
+    "channels": [
+      "Nenhum canal disponível"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Chelsea",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/7a6f62bbdffe60afbf673bdcfaa8de47.png"
+    },
+    "team2": {
+      "name": "Southampton",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/a910a887f39a7a0be96932ca7cbd6a02.png"
+    },
+    "time": "17:15",
+    "championship": "Campeonato Inglês - Rodada 27",
+    "channels": [
+      "ESPN 4",
+      "DISNEY+ PREMIUM"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Barcelona",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/60f77a3c39c22337133cc3d02af99e66.png"
+    },
+    "team2": {
+      "name": "Atletico Madrid",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/738d2438eb188f1a35eed95049ea46b7.png"
+    },
+    "time": "17:30",
+    "championship": "Copa do Rei - Semifinal",
+    "channels": [
+      "ESPN",
+      "DISNEY+"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Santa Fe",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/b9b75ea52b2d229ca2267a5de3f67fb1.png"
+    },
+    "team2": {
+      "name": "Deportes Iquique",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/ef98e0b970695883d539f5bac0ed7f27.png"
+    },
+    "time": "19:00",
+    "championship": "Copa Libertadores - 2ª Rodada",
+    "channels": [
+      "PARAMOUNT+"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Maranhão",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/NqzXAwwEUtU0hNRU24oqy0jSN3wZMJdojtMuqUsw.jpg"
+    },
+    "team2": {
+      "name": "Vitória",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/3bb8aa492c0330b0e70c2e26f0f91091.png"
+    },
+    "time": "19:00",
+    "championship": "Copa Do Brasil - 1ª Rodada",
+    "channels": [
+      "SPORTV",
+      "PREMIERE FC"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Maringá",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/vZIChOgbmjf0Y0jeZdmQ89lQUl67RpU9p9xcgjZ2.png"
+    },
+    "team2": {
+      "name": "Juventude",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/69177a419967da608552349978d985d8.png"
+    },
+    "time": "19:30",
+    "championship": "Copa Do Brasil - 1ª Rodada",
+    "channels": [
+      "PRIME VIDEO"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Operario MS",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/9k1etukgtnNeDaLw7Oqz0tdTHiBvEaCa5S0ENocZ.png"
+    },
+    "team2": {
+      "name": "Criciúma",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/c570f3ac6a24ea378265c723170e6677.png"
+    },
+    "time": "20:00",
+    "championship": "Copa Do Brasil - 1ª Rodada",
+    "channels": [
+      "PRIME VIDEO"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Operário-VG",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/JnTHiHuQgWLAQ66srDSPDCfJ1EhMCxZOAe0UT5zF.png"
+    },
+    "team2": {
+      "name": "Sport Recife",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/8997c75515d2dc2e23798f719924519e.png"
+    },
+    "time": "21:30",
+    "championship": "Copa Do Brasil - 1ª Rodada",
+    "channels": [
+      "SPORTV",
+      "PREMIERE FC"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Pouso Alegre",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/6841742b45c451b447ebe42715b5cca8.png"
+    },
+    "team2": {
+      "name": "Athletico PR",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/0a1efc5388a662eff470933dfa4415e2.png"
+    },
+    "time": "21:30",
+    "championship": "Copa Do Brasil - 1ª Rodada",
+    "channels": [
+      "PRIME VIDEO"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "team2": {
+      "name": "Desconhecido",
+      "logo": "https://www.futebolnatv.com.brundefined"
+    },
+    "time": "Horário não disponível",
+    "championship": "Campeonato não encontrado",
+    "channels": [
+      "Nenhum canal disponível"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Boca Juniors",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/0e3177cc04d1b00a991b98a320aeefaa.png"
+    },
+    "team2": {
+      "name": "Alianza Lima",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/c5db85da0525dcc1901dcd016fe284b7.png"
+    },
+    "time": "21:30",
+    "championship": "Copa Libertadores - 2ª Rodada",
+    "channels": [
+      "ESPN",
+      "DISNEY+"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Bahia",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/3aff5415f2580a01cfb1d04a8135ab76.png"
+    },
+    "team2": {
+      "name": "The Strongest",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/2475539350934dab462f39a8e7e05e87.png"
+    },
+    "time": "21:30",
+    "championship": "Copa Libertadores - 2ª Rodada",
+    "channels": [
+      "PARAMOUNT+"
+    ]
+  },
+  {
+    "team1": {
+      "name": "Inter Miami",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/272f723cfb9bdd0c0d2043154417b3f2.png"
+    },
+    "team2": {
+      "name": "Sporting Kansas City",
+      "logo": "https://www.futebolnatv.com.br/upload/teams/ec920b4bcbba8a3bf8b275e35426fc9d.png"
+    },
+    "time": "22:00",
+    "championship": "CONCACAF - Champions - 1ª Rodada",
+    "channels": [
+      "ESPN 4",
       "DISNEY+ PREMIUM"
     ]
   },

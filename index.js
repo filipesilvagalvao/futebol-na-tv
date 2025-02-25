@@ -153,9 +153,11 @@ async function generateHTML() {
                                 </div>
                             </div>
 
-                            <div id="logo">
-                                <i class="fa-solid fa-play"></i>
-                            </div>
+                            <a href="/">
+                                <div id="logo">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </a>
 
                             <div class="search">
                                 <div class="search-box">

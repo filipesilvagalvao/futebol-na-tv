@@ -269,7 +269,7 @@ export function madeGames() {
                         const a = document.createElement('a')
                         a.href = `/jogos-de-hoje/${element.teams[0].name.replace(/\s+/g, '-').toLowerCase()}-vs-${element.teams[1].name.replace(/\s+/g, '-').toLowerCase()}-${dataFormatada}/`
                         const h3 = document.createElement('h3')
-                        h3.innerText = `${element.teams[0].name} - ${element.teams[1].name}`
+                        h3.innerText = `${element.teams[0].name} -VS- ${element.teams[1].name}`
 
                         const divMatch = document.createElement('div')
                         divMatch.className = 'match'

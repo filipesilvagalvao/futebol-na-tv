@@ -2,6 +2,7 @@ header {
     padding: 28px 8%;
     background-color: #333333;
     color: #f0ffff;
+    border-bottom: 2px solid rgb(19, 255, 19);
 }
 
 #navbar {
@@ -10,9 +11,21 @@ header {
     align-items: flex-start;
     gap: 20px;
 }
+#logo{
+    background-color: rgba(19, 255, 19, 0.644);
+    background-image: url(/src/images/dark-denim.png);
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
+}
 #logo::before {
     content: 'PLAYTV';
+    
+    font-weight: bold;
 }
 
 #nav-list {

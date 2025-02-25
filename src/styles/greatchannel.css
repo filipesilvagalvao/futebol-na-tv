@@ -5,6 +5,9 @@
     flex-direction: column;
     margin-top: 30px;
     gap: 30px;
+    background-color: rgba(0, 0, 0, 0.425);
+    border-radius: 15px;
+    padding-bottom: 30px;
 }
 #grid-great-channels{
     display: flex;
@@ -14,12 +17,15 @@
     gap: 30px;
 }
 .channel{
-    background-color: #000000;
+    background-color: #657079;
+    background-image: url(/src/images/black-orchid.png);
     border-radius: 15px;
+    border: 1px solid rgb(34, 204, 196);
 }
 .thumb-channel img{
     width: 80px;
     height: auto;
+    filter: drop-shadow(0 0 10px rgba(1, 1, 1, 0.973)); /* Contorno */
 }
 .thumb-channel{
     display: flex;
@@ -59,7 +65,7 @@
         display: none;
     }
     .thumb-channel img{
-        width: 40px;
+        width: 60px;
         height: auto;
     }
 }

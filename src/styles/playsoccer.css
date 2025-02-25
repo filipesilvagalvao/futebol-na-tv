@@ -5,6 +5,9 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.425);
+    border-radius: 15px;
+    padding-bottom: 30px;
 }
 
 #grid-play-soccer{
@@ -22,18 +25,21 @@
     border: 1px solid #ffffff67;
     display: flex;
     justify-content: center;
+    font-weight: bolder;
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
     position: relative;
     gap: 40px;
+    background-color: #30b842;
+    background-image: url(/src/images/black-orchid.png);
 }
 .match div{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
-    background-color: rgba(0, 0, 0, 0.719);
+    background-color: rgb(26, 25, 25);
     width: 100%;
     color: rgb(255, 255, 255);
     font-size: 2rem;

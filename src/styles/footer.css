@@ -3,6 +3,7 @@ footer {
     background-color: #333333;
     color: #f0ffff;
     width: 100%;
+    border-top: 2px solid rgb(19, 255, 19);
 }
 
 footer>div {

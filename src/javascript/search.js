@@ -39,6 +39,8 @@ export function searchChannel() {
         if (results == 0 || c == '') {
             const img = document.createElement('img')
             img.src = 'https://media.tenor.com/IHdlTRsmcS4AAAAM/404.gif'
+            img.style.height = '100%'
+            img.style.width = 'auto'
 
             contentResults.appendChild(img)
         } else {

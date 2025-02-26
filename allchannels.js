@@ -4,7 +4,7 @@ import path from 'path';
 // Arrays de canais
 const abertos = ['globo', 'SBT', 'RecordTV', 'band', 'tv brasil'];
 const esportes = ['bandsports', 'cazéTV', 'combate', 'espn', 'espn 2', 'espn 3', 'espn 4', 'premiere clubes', 'premiere 2', 'premiere 3', 'premiere 4', 'sportv 1', 'sportv 2', 'sportv 3'];
-const entretenimento = ['axn', 'cartoon network', 'discovery channel', 'megapix', 'warnertv'];
+const entretenimento = ['axn', 'cartoon network', 'discovery channel','disney channel', 'megapix', 'warnertv'];
 const noticias = ['band news', 'record news'];
 
 const categories = [abertos, esportes, entretenimento, noticias];
@@ -72,6 +72,8 @@ const generatePageHTML = (allContents) => {
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Aqui você encontra uma variedade gigantesca de canais de tv online, para você se divertir a beça!">
+            <link rel="canonical" href="/todos-os-canais/">
             <link rel="stylesheet" href="/src/styles/style.css">
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
                 integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="

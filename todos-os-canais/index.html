@@ -1,314 +1,297 @@
-<!DOCTYPE html>
-<html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/styles/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="/src/images/playtv-logo.png" type="image/png">
-    <script type="module" src="/src/javascript/codes.js" defer></script>
-    <title>Todos os canais</title>
-</head>
-
-<body>
-    <header>
-        <nav id="navbar">
-            <ul id="nav-list">
-                <li><a href="/">Home</a></li>
-                <li><a href="/todos-os-canais#abertos">Abertos</a></li>
-                <li><a href="/todos-os-canais#esportes">Esportes</a></li>
-                <li><a href="/todos-os-canais#entretenimento">Entretenimento</a></li>
-                <li><a href="/todos-os-canais#noticias">Notícias</a></li>
-            </ul>
-
-            <div id="menu-mobile">
-                <button><i class="fa-solid fa-bars"></i></button>
-                <div>
-                    <ul id="nav-list-mobile" class="hide">
+        <!DOCTYPE html>
+        <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Aqui você encontra uma variedade gigantesca de canais de tv online, para você se divertir a beça!">
+            <link rel="canonical" href="/todos-os-canais/">
+            <link rel="stylesheet" href="/src/styles/style.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+                integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+                crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+                integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="shortcut icon" href="/src/images/playtv-logo.webp" type="image/png">
+            <script type="module" src="/src/javascript/codes.js" defer></script>
+            <title>Todos os canais</title>
+        </head>
+        <body>
+            <header>
+                <nav id="navbar">
+                    <ul id="nav-list">
                         <li><a href="/">Home</a></li>
-                        <li><a href="/todos-os-canais#abertos">Abertos</a></li>
-                        <li><a href="/todos-os-canais#esportes">Esportes</a></li>
-                        <li><a href="/todos-os-canais#entretenimento">Entretenimento</a></li>
-                        <li><a href="/todos-os-canais#noticias">Notícias</a></li>
+                        <li><a href="#">Abertos</a></li>
+                        <li><a href="#">Esportes</a></li>
+                        <li><a href="#">Entretenimento</a></li>
+                        <li><a href="#">Notícias</a></li>
                     </ul>
-                </div>
-            </div>
-
-            <div id="logo">
-                <i class="fa-solid fa-play"></i>
-            </div>
-
-            <div class="search">
-                <div class="search-box">
-                    <div class="search-field">
-                        <input placeholder="Buscar..." class="input" type="text">
-                        <div class="search-box-icon">
-                            <button class="btn-icon-content">
-                                <i class="search-icon">
-                                    <svg xmlns="://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
-                                        <path
-                                            d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
-                                            fill="#fff"></path>
-                                    </svg>
-                                </i>
-                            </button>
+                    <div id="menu-mobile">
+                        <button><i class="fa-solid fa-bars"></i></button>
+                        <div>
+                            <ul id="nav-list-mobile" class="hide">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="#">Abertos</a></li>
+                                <li><a href="#">Esportes</a></li>
+                                <li><a href="#">Entretenimento</a></li>
+                                <li><a href="#">Notícias</a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-
+                    <div id="logo">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="search">
+                        <div class="search-box">
+                            <div class="search-field">
+                                <input placeholder="Buscar..." class="input" type="text">
+                                <div class="search-box-icon">
+                                    <button class="btn-icon-content">
+                                        <i class="search-icon">
+                                            <svg xmlns="://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
+                                                <path
+                                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                                                    fill="#fff"></path>
+                                            </svg>
+                                        </i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                
         <section class="category" id="abertos">
             <h2>ABERTOS</h2>
             <div class="grid-articles">
-
-                <a href="/canais/globo/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/globo.webp" alt="logo globo">
-                        </div>
-                        <h3>globo</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/sbt/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/sbt.webp" alt="logo SBT"></div>
-                        <h3>SBT</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/record/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/recordtv.webp"
-                                alt="logo RecordTV"></div>
-                        <h3>RecordTV</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/band/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/band.webp" alt="logo band"></div>
-                        <h3>band</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/tv-brasil/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/tv-brasil.webp"
-                                alt="logo tv brasil"></div>
-                        <h3>tv brasil</h3>
-                    </div>
-                </a>
-
+                
+        <a href="/canais/globo/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/globo.webp" alt="logo globo"></div>
+                <h3>globo</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/sbt/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/sbt.webp" alt="logo SBT"></div>
+                <h3>SBT</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/recordtv/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/recordtv.webp" alt="logo RecordTV"></div>
+                <h3>RecordTV</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/band/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/band.webp" alt="logo band"></div>
+                <h3>band</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/tv-brasil/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/tv-brasil.webp" alt="logo tv brasil"></div>
+                <h3>tv brasil</h3>
+            </div>
+        </a>
+    
             </div>
         </section>
-
+    
         <section class="category" id="esportes">
             <h2>ESPORTES</h2>
             <div class="grid-articles">
-
-                <a href="/canais/bandsports/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/bandsports.webp"
-                                alt="logo bandsports"></div>
-                        <h3>bandsports</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/cazetv/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/cazetv.webp" alt="logo cazéTV">
-                        </div>
-                        <h3>cazéTV</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/combate/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/combate.webp" alt="logo combate">
-                        </div>
-                        <h3>combate</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/espn/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/espn.webp" alt="logo espn"></div>
-                        <h3>espn</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/espn-2/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/espn-2.webp" alt="logo espn 2">
-                        </div>
-                        <h3>espn 2</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/espn-3/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/espn-3.webp" alt="logo espn 3">
-                        </div>
-                        <h3>espn 3</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/espn-4/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/espn-4.webp" alt="logo espn 4">
-                        </div>
-                        <h3>espn 4</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/premiere/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/premiere.webp"
-                                alt="logo premiere clubes"></div>
-                        <h3>premiere clubes</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/premiere-2/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/premiere.webp"
-                                alt="logo premiere 2"></div>
-                        <h3>premiere 2</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/premiere-3/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/premiere.webp"
-                                alt="logo premiere 3"></div>
-                        <h3>premiere 3</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/premiere-4/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/premiere.webp"
-                                alt="logo premiere 4"></div>
-                        <h3>premiere 4</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/sportv-1/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/sportv-1.webp"
-                                alt="logo sportv 1"></div>
-                        <h3>sportv 1</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/sportv-2/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/sportv-2.webp"
-                                alt="logo sportv 2"></div>
-                        <h3>sportv 2</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/sportv-3/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/sportv-3.webp"
-                                alt="logo sportv 3"></div>
-                        <h3>sportv 3</h3>
-                    </div>
-                </a>
-
+                
+        <a href="/canais/bandsports/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/bandsports.webp" alt="logo bandsports"></div>
+                <h3>bandsports</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/cazetv/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/cazetv.webp" alt="logo cazéTV"></div>
+                <h3>cazéTV</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/combate/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/combate.webp" alt="logo combate"></div>
+                <h3>combate</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/espn/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/espn.webp" alt="logo espn"></div>
+                <h3>espn</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/espn-2/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/espn-2.webp" alt="logo espn 2"></div>
+                <h3>espn 2</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/espn-3/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/espn-3.webp" alt="logo espn 3"></div>
+                <h3>espn 3</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/espn-4/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/espn-4.webp" alt="logo espn 4"></div>
+                <h3>espn 4</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/premiere-clubes/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/premiere-clubes.webp" alt="logo premiere clubes"></div>
+                <h3>premiere clubes</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/premiere-2/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/premiere-2.webp" alt="logo premiere 2"></div>
+                <h3>premiere 2</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/premiere-3/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/premiere-3.webp" alt="logo premiere 3"></div>
+                <h3>premiere 3</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/premiere-4/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/premiere-4.webp" alt="logo premiere 4"></div>
+                <h3>premiere 4</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/sportv-1/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/sportv-1.webp" alt="logo sportv 1"></div>
+                <h3>sportv 1</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/sportv-2/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/sportv-2.webp" alt="logo sportv 2"></div>
+                <h3>sportv 2</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/sportv-3/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/sportv-3.webp" alt="logo sportv 3"></div>
+                <h3>sportv 3</h3>
+            </div>
+        </a>
+    
             </div>
         </section>
-
+    
         <section class="category" id="entretenimento">
             <h2>ENTRETENIMENTO</h2>
             <div class="grid-articles">
-
-                <a href="/canais/axn/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/axn.webp" alt="logo axn"></div>
-                        <h3>axn</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/cartoon-network/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/cartoon-network.webp"
-                                alt="logo cartoon network"></div>
-                        <h3>cartoon network</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/discovery-channel/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/discovery-channel.webp"
-                                alt="logo discovery channel"></div>
-                        <h3>discovery channel</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/megapix/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/megapix.webp" alt="logo megapix">
-                        </div>
-                        <h3>megapix</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/warnertv/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/warnertv.webp"
-                                alt="logo warnertv"></div>
-                        <h3>warnertv</h3>
-                    </div>
-                </a>
-
+                
+        <a href="/canais/axn/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/axn.webp" alt="logo axn"></div>
+                <h3>axn</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/cartoon-network/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/cartoon-network.webp" alt="logo cartoon network"></div>
+                <h3>cartoon network</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/discovery-channel/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/discovery-channel.webp" alt="logo discovery channel"></div>
+                <h3>discovery channel</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/disney-channel/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/disney-channel.webp" alt="logo disney channel"></div>
+                <h3>disney channel</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/megapix/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/megapix.webp" alt="logo megapix"></div>
+                <h3>megapix</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/warnertv/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/warnertv.webp" alt="logo warnertv"></div>
+                <h3>warnertv</h3>
+            </div>
+        </a>
+    
             </div>
         </section>
-
-        <section class="category" id="noticias">
+    
+        <section class="category" id="notícias">
             <h2>NOTÍCIAS</h2>
             <div class="grid-articles">
-
-                <a href="/canais/band-news/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/band-news.webp"
-                                alt="logo band news"></div>
-                        <h3>band news</h3>
-                    </div>
-                </a>
-
-                <a href="/canais/record-news/">
-                    <div class="channel">
-                        <div class="thumb-channel"><img src="/src/images/thumb-channel/record-news.webp"
-                                alt="logo record news"></div>
-                        <h3>record news</h3>
-                    </div>
-                </a>
-
+                
+        <a href="/canais/band-news/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/band-news.webp" alt="logo band news"></div>
+                <h3>band news</h3>
+            </div>
+        </a>
+    
+        <a href="/canais/record-news/">
+            <div class="channel">
+                <div class="thumb-channel"><img src="/src/images/thumb-channel/record-news.webp" alt="logo record news"></div>
+                <h3>record news</h3>
+            </div>
+        </a>
+    
             </div>
         </section>
-
-    </main>
-    <footer>
-        <div>
-            <p>&copy; Todos os direitos reservados - 2025 - PlayTV Online</p>
-        </div>
-    </footer>
-    <div id="results" style="display: none;">
-        <div id="content-results">
-            <button><i class="fa-solid fa-x"></i></button>
-        </div>
-    </div>
-</body>
-
-</html>
+    
+            </main>
+            <footer>
+                <div>
+                    <p>&copy; Todos os direitos reservados - 2025 - PlayTV Online</p>
+                </div>
+            </footer>
+            <div id="results" style="display: none;">
+                <div id="content-results">
+                    <button><i class="fa-solid fa-x"></i></button>
+                </div>
+            </div>
+        </body>
+        </html>
+    

@@ -55,11 +55,11 @@ body {
     gap: 30px;
 }
 
-#great-channels>div>a>div, .match, .category-contents{
+#great-channels>div>a>div, .match, .category-contents, .channel{
     transition: transform 0.3s ease;
 }
 
-#great-channels>div>a>div:hover, .match:hover, .category-contents:hover{
+#great-channels>div>a>div:hover, .match:hover, .category-contents:hover, .channel:hover{
     transform: scale(1.1); /* Aumenta o tamanho em 10% */
     box-shadow:  0px 0px 10px 2px rgba(151, 151, 151, 0.534); /* Sombra mais intensa */
     z-index: 1; /* Garante que o elemento fique "na frente" de outros */

@@ -122,6 +122,9 @@ async function generateHTML() {
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
                     <meta name="description" content="Assista ao vivo ${jogo.team1.name} vs ${jogo.team2.name}, a partida de futebol irá acontecer às ${jogo.time}, não perca!">
                     <link rel="canonical" href="/jogos-de-hoje/${jogo.team1.name.replace(/\s+/g, '-').toLowerCase()}-vs-${jogo.team2.name.replace(/\s+/g, '-').toLowerCase()}-${dataFormatada}">
+                    <meta property="og:title" content="Assista ao vivo ${jogo.team1.name} vs ${jogo.team2.name} ao vivo grátis" />
+                    <meta property="og:description" content="Assista ao vivo ${jogo.team1.name} vs ${jogo.team2.name}, a partida de futebol irá acontecer às ${jogo.time}, não perca!" />
+                    <meta property="og:type" content="article" />
                     <link rel="stylesheet" href="/src/styles/style.css">
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 

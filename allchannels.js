@@ -73,6 +73,9 @@ const generatePageHTML = (allContents) => {
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="description" content="Aqui você encontra uma variedade gigantesca de canais de tv online, para você se divertir a beça!">
+            <meta property="og:title" content="Todos os canais de tv num só lugar!" />
+            <meta property="og:description" content="Aqui você encontra uma variedade gigantesca de canais de tv online, para você se divertir a beça!" />
+            <meta property="og:type" content="website" />
             <link rel="canonical" href="/todos-os-canais/">
             <link rel="stylesheet" href="/src/styles/style.css">
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"

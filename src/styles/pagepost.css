@@ -3,14 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 90px;
+    gap: 40px;
     margin-top: 30px;
 }
 
 .game-match h1,
 .game-match h2 {
     text-align: center;
-    margin-bottom: 30px;
 }
 
 #screen-video iframe {
@@ -102,4 +101,25 @@
     background-color: #00000086;
     padding: 1%;
     border-radius: 10px;
+}
+
+.teams{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.teams img{
+    width: auto;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 5px;
 }

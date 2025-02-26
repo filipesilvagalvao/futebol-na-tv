@@ -186,7 +186,11 @@ async function generateHTML() {
                     <main>
                         <article class="game-match">
                             <h1>Assistir ${jogo.team1.name} x ${jogo.team2.name} ao vivo</h1>
-                            
+                            <div class="teams">
+                                <img src="${jogo.team1.logo}" alt="logo do time" id="team-1">
+                                <span>VS</span>
+                                <img src="${jogo.team2.logo}" alt="logo do time" id="team-2">
+                            </div>
                             <div id="screen-video">
                                 <div id="loading"><span>CARREGANDO PLAYER...</span></div>
                                 <iframe src="" allowfullscreen allow="encrypted-media" frameborder="0"></iframe>

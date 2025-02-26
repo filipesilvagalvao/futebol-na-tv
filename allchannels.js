@@ -93,26 +93,31 @@ const generatePageHTML = (allContents) => {
                 <nav id="navbar">
                     <ul id="nav-list">
                         <li><a href="/">Home</a></li>
-                        <li><a href="#">Abertos</a></li>
-                        <li><a href="#">Esportes</a></li>
-                        <li><a href="#">Entretenimento</a></li>
-                        <li><a href="#">Notícias</a></li>
+                        <li><a href="/todos-os-canais#abertos">Abertos</a></li>
+                        <li><a href="/todos-os-canais#esportes">Esportes</a></li>
+                        <li><a href="/todos-os-canais#entretenimento">Entretenimento</a></li>
+                        <li><a href="/todos-os-canais#noticias">Notícias</a></li>
                     </ul>
+
                     <div id="menu-mobile">
                         <button><i class="fa-solid fa-bars"></i></button>
                         <div>
                             <ul id="nav-list-mobile" class="hide">
-                                <li><a href="/">Home</a></li>
-                                <li><a href="#">Abertos</a></li>
-                                <li><a href="#">Esportes</a></li>
-                                <li><a href="#">Entretenimento</a></li>
-                                <li><a href="#">Notícias</a></li>
+                                <li><a href="/index.html">Home</a></li>
+                                <li><a href="/todos-os-canais#abertos">Abertos</a></li>
+                                <li><a href="/todos-os-canais#esportes">Esportes</a></li>
+                                <li><a href="/todos-os-canais#entretenimento">Entretenimento</a></li>
+                                <li><a href="/todos-os-canais#noticias">Notícias</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div id="logo">
-                        <i class="fa-solid fa-play"></i>
-                    </div>
+
+                    <a href="/">
+                        <div id="logo">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </a>
+
                     <div class="search">
                         <div class="search-box">
                             <div class="search-field">

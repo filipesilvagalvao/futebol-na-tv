@@ -267,7 +267,7 @@ export function madeGames() {
                   playFilter.forEach((element) => {
 
                         const a = document.createElement('a')
-                        a.href = `/jogos-de-hoje/${element.teams[0].name.replace(/\s+/g, '-').toLowerCase()}-vs-${element.teams[1].name.replace(/\s+/g, '-').toLowerCase()}-${dataFormatada}/`
+                        a.href = `/jogos-de-hoje/${element.teams[0].name.replace(/\s+/g, '-').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}-vs-${element.teams[1].name.replace(/\s+/g, '-').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}-${dataFormatada}/`
                         const h3 = document.createElement('h3')
                         h3.innerText = `${element.teams[0].name} -VS- ${element.teams[1].name}`
 

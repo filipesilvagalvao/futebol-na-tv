@@ -22,7 +22,7 @@ async function generatePages() {
         listOfTexts.push(text);
 
         // Criando o diretório para o canal
-        const channelDir = path.join(__dirname, 'canais', channel.toLowerCase().replace(/\s+/g, "-"));
+        const channelDir = path.join(__dirname, 'canais', channel.toLowerCase().replace(/\s+/g, "-").normalize('NFD').replace(/[\u0300-\u036f]/g, ''));
         await fs.mkdir(channelDir, { recursive: true });
 
         // Conteúdo do arquivo HTML
@@ -33,7 +33,7 @@ async function generatePages() {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Assista o canal de tv ${channel} ao vivo e de forma totalmente gratuita!">
-    <link rel="canonical" href="/canais/${channel.toLowerCase().replace(/\s+/g, "-")}">
+    <link rel="canonical" href="/canais/${channel.toLowerCase().replace(/\s+/g, "-").normalize('NFD').replace(/[\u0300-\u036f]/g, '')}">
     <meta property="og:title" content="${channel} ao vivo" />
     <meta property="og:description" content="Assista o canal de tv ${channel} ao vivo e de forma totalmente gratuita!" />
     <meta property="og:type" content="article" />
@@ -103,7 +103,7 @@ async function generatePages() {
                 <div id="btn-sinals"></div>
             </div>
             <div id="text-post">
-                <img src="/src/images/thumb-channel/${channel.toLowerCase().replace(/\s+/g, "-")}.webp" alt="logo ${channel.toLowerCase()}" class="logo-channel">
+                <img src="/src/images/thumb-channel/${channel.toLowerCase().replace(/\s+/g, "-").normalize('NFD').replace(/[\u0300-\u036f]/g, '')}.webp" alt="logo ${channel.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}" class="logo-channel">
                 <p>${text}</p>
             </div>
         </article>

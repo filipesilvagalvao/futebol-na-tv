@@ -25,7 +25,7 @@ class PostChannel {
 
     generator(arrChannels) {
         arrChannels.forEach((c) => {
-            this.channels.push(new Channel(c, `/canais/${c.toLowerCase().replace(/\s+/g, "-")}/`, `/src/images/thumb-channel/${c.toLowerCase().replace(/\s+/g, "-")}.webp`));
+            this.channels.push(new Channel(c, `/canais/${c.toLowerCase().replace(/\s+/g, "-").normalize('NFD').replace(/[\u0300-\u036f]/g, '')}/`, `/src/images/thumb-channel/${c.toLowerCase().replace(/\s+/g, "-").normalize('NFD').replace(/[\u0300-\u036f]/g, '')}.webp`));
         });
     }
 }
@@ -53,7 +53,7 @@ const generateCategoryHTML = (category) => {
     `).join('');
 
     return `
-        <section class="category" id="${category.category.toLowerCase()}">
+        <section class="category" id="${category.category.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}">
             <h2>${category.category.toUpperCase()}</h2>
             <div class="grid-articles">
                 ${channelsHTML}

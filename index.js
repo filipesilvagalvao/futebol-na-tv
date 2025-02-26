@@ -101,7 +101,7 @@ async function generateHTML() {
 
             
             // Cria uma versão amigável do nome da partida para o nome da pasta
-            const nomeDaPartida = `${jogo.team1.name.replace(/\s+/g, '-').toLowerCase()}-vs-${jogo.team2.name.replace(/\s+/g, '-').toLowerCase()}-${dataFormatada}`;
+            const nomeDaPartida = `${jogo.team1.name.replace(/\s+/g, '-').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}-vs-${jogo.team2.name.replace(/\s+/g, '-').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}-${dataFormatada}`;
 
             // Caminho completo para a pasta da partida
             const partidaDir = path.join(dir, nomeDaPartida);
@@ -121,7 +121,7 @@ async function generateHTML() {
                     <meta charset="UTF-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
                     <meta name="description" content="Assista ao vivo ${jogo.team1.name} vs ${jogo.team2.name}, a partida de futebol irá acontecer às ${jogo.time}, não perca!">
-                    <link rel="canonical" href="/jogos-de-hoje/${jogo.team1.name.replace(/\s+/g, '-').toLowerCase()}-vs-${jogo.team2.name.replace(/\s+/g, '-').toLowerCase()}-${dataFormatada}">
+                    <link rel="canonical" href="/jogos-de-hoje/${jogo.team1.name.replace(/\s+/g, '-').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}-vs-${jogo.team2.name.replace(/\s+/g, '-').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}-${dataFormatada}">
                     <meta property="og:title" content="Assista ao vivo ${jogo.team1.name} vs ${jogo.team2.name} ao vivo grátis" />
                     <meta property="og:description" content="Assista ao vivo ${jogo.team1.name} vs ${jogo.team2.name}, a partida de futebol irá acontecer às ${jogo.time}, não perca!" />
                     <meta property="og:type" content="article" />

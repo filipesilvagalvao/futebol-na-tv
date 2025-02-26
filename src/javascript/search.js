@@ -21,20 +21,12 @@ export function searchChannel() {
             canais.push(...e.category.channels)
         });
 
-        console.log(canais)
-
-
-
         canais.forEach((e) => {
 
             if (e.name.toLowerCase().includes(c.toLowerCase().trim())) {
                 results.push(e)
             }
         })
-
-        console.log(results)
-
-
 
         if (results == 0 || c == '') {
             const img = document.createElement('img')
@@ -46,11 +38,11 @@ export function searchChannel() {
         } else {
             results.forEach((e) => {
                 const a = document.createElement('a')
-                a.href = e.url
+                a.href = e.url.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
 
                 const div = document.createElement('div')
                 const img = document.createElement('img')
-                img.src = e.logo
+                img.src = e.logo.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
 
                 const p = document.createElement('p')
                 p.innerText = e.name

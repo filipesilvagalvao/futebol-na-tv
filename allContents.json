@@ -14,9 +14,9 @@
           "logo": "/src/images/thumb-channel/sbt.webp"
         },
         {
-          "name": "RecordTV",
-          "url": "/canais/recordtv/",
-          "logo": "/src/images/thumb-channel/recordtv.webp"
+          "name": "Record",
+          "url": "/canais/record/",
+          "logo": "/src/images/thumb-channel/record.webp"
         },
         {
           "name": "band",

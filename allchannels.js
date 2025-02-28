@@ -41,6 +41,21 @@ allContents.forEach((e, i) => {
     e.category.generator(categories[i]);
 });
 
+// Função para gerar o JSON
+const generateJSON = () => {
+    const jsonContent = JSON.stringify(allContents, null, 2);
+    const jsonPath = path.join('allContents.json');
+
+    fs.writeFile(jsonPath, jsonContent, 'utf8', (err) => {
+        if (err) {
+            console.error('Erro ao escrever o arquivo JSON:', err);
+        } else {
+            console.log(`Arquivo ${jsonPath} atualizado com sucesso!`);
+        }
+    });
+};
+
+console.log(allContents)
 // Função para gerar o HTML de uma categoria
 const generateCategoryHTML = (category) => {
     const channelsHTML = category.channels.map((channel) => `
@@ -175,3 +190,5 @@ fs.writeFile(outputPath, htmlContent, 'utf8', (err) => {
         console.log(`Arquivo ${outputPath} gerado com sucesso!`);
     }
 });
+
+generateJSON();

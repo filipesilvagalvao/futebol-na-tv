@@ -42,8 +42,8 @@
         },
         {
           "name": "cazéTV",
-          "url": "/canais/cazétv/",
-          "logo": "/src/images/thumb-channel/cazétv.webp"
+          "url": "/canais/cazetv/",
+          "logo": "/src/images/thumb-channel/cazetv.webp"
         },
         {
           "name": "combate",
@@ -82,7 +82,7 @@
         },
         {
           "name": "premiere 3",
-          "url": "/canais/premire-3/",
+          "url": "/canais/premiere-3/",
           "logo": "/src/images/thumb-channel/premiere-3.webp"
         },
         {
@@ -126,6 +126,11 @@
           "name": "discovery channel",
           "url": "/canais/discovery-channel/",
           "logo": "/src/images/thumb-channel/discovery-channel.webp"
+        },
+        {
+          "name": "disney channel",
+          "url": "/canais/disney-channel/",
+          "logo": "/src/images/thumb-channel/disney-channel.webp"
         },
         {
           "name": "megapix",

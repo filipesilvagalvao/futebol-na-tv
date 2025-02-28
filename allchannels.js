@@ -2,10 +2,10 @@ import fs from 'fs';
 import path from 'path';
 
 // Arrays de canais
-const abertos = ['globo', 'SBT', 'RecordTV', 'band', 'tv brasil'];
+const abertos = ['globo', 'SBT', 'RecordTV', 'band', 'tv brasil','TV Cultura', 'RedeTV!'];
 const esportes = ['bandsports', 'cazéTV', 'combate', 'espn', 'espn 2', 'espn 3', 'espn 4', 'premiere clubes', 'premiere 2', 'premiere 3', 'premiere 4', 'sportv 1', 'sportv 2', 'sportv 3'];
-const entretenimento = ['axn', 'cartoon network', 'discovery channel','disney channel', 'megapix', 'warnertv'];
-const noticias = ['band news', 'record news'];
+const entretenimento = ['axn', 'cartoon network', 'discovery channel','disney channel', 'megapix', 'warnertv','FX', 'A&E', 'Cinemax', 'Cinecanal', 'Adult Swim', 'H&H Discovery', 'Discovery Kids', 'Discovery Theather', 'Discovery Science', 'Discovery World', 'Discovery ID', 'Discovery Turbo', 'Gloob', 'Gloobinho', 'GNT', 'HBO', 'HBO 2', 'HBO Family', 'HBO Plus', 'HBO Signature', 'HBO Xtreme', 'HGTV', 'History 2', 'History','Star Channel', 'Multishow', 'National Geographic', 'Nick Jr', 'Nickelodeon', 'Space', 'Telecine Action', 'Telecine Cult', 'Telecine Fun', 'Telecine Pipoca', 'Telecine Premium', 'Telecine Touch', 'TNT', 'TNT Novelas', 'UFC Fight Pass', 'Universal TV', 'TNT Séries','VIva'];
+const noticias = ['band news', 'record news','CNN Brasil', 'Globo News', 'Jovem Pan News'];
 
 const categories = [abertos, esportes, entretenimento, noticias];
 

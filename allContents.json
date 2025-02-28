@@ -27,6 +27,16 @@
           "name": "tv brasil",
           "url": "/canais/tv-brasil/",
           "logo": "/src/images/thumb-channel/tv-brasil.webp"
+        },
+        {
+          "name": "TV Cultura",
+          "url": "/canais/tv-cultura/",
+          "logo": "/src/images/thumb-channel/tv-cultura.webp"
+        },
+        {
+          "name": "RedeTV!",
+          "url": "/canais/redetv!/",
+          "logo": "/src/images/thumb-channel/redetv!.webp"
         }
       ]
     }
@@ -141,6 +151,216 @@
           "name": "warnertv",
           "url": "/canais/warnertv/",
           "logo": "/src/images/thumb-channel/warnertv.webp"
+        },
+        {
+          "name": "FX",
+          "url": "/canais/fx/",
+          "logo": "/src/images/thumb-channel/fx.webp"
+        },
+        {
+          "name": "A&E",
+          "url": "/canais/a&e/",
+          "logo": "/src/images/thumb-channel/a&e.webp"
+        },
+        {
+          "name": "Cinemax",
+          "url": "/canais/cinemax/",
+          "logo": "/src/images/thumb-channel/cinemax.webp"
+        },
+        {
+          "name": "Cinecanal",
+          "url": "/canais/cinecanal/",
+          "logo": "/src/images/thumb-channel/cinecanal.webp"
+        },
+        {
+          "name": "Adult Swim",
+          "url": "/canais/adult-swim/",
+          "logo": "/src/images/thumb-channel/adult-swim.webp"
+        },
+        {
+          "name": "H&H Discovery",
+          "url": "/canais/h&h-discovery/",
+          "logo": "/src/images/thumb-channel/h&h-discovery.webp"
+        },
+        {
+          "name": "Discovery Kids",
+          "url": "/canais/discovery-kids/",
+          "logo": "/src/images/thumb-channel/discovery-kids.webp"
+        },
+        {
+          "name": "Discovery Theather",
+          "url": "/canais/discovery-theather/",
+          "logo": "/src/images/thumb-channel/discovery-theather.webp"
+        },
+        {
+          "name": "Discovery Science",
+          "url": "/canais/discovery-science/",
+          "logo": "/src/images/thumb-channel/discovery-science.webp"
+        },
+        {
+          "name": "Discovery World",
+          "url": "/canais/discovery-world/",
+          "logo": "/src/images/thumb-channel/discovery-world.webp"
+        },
+        {
+          "name": "Discovery ID",
+          "url": "/canais/discovery-id/",
+          "logo": "/src/images/thumb-channel/discovery-id.webp"
+        },
+        {
+          "name": "Discovery Turbo",
+          "url": "/canais/discovery-turbo/",
+          "logo": "/src/images/thumb-channel/discovery-turbo.webp"
+        },
+        {
+          "name": "Gloob",
+          "url": "/canais/gloob/",
+          "logo": "/src/images/thumb-channel/gloob.webp"
+        },
+        {
+          "name": "Gloobinho",
+          "url": "/canais/gloobinho/",
+          "logo": "/src/images/thumb-channel/gloobinho.webp"
+        },
+        {
+          "name": "GNT",
+          "url": "/canais/gnt/",
+          "logo": "/src/images/thumb-channel/gnt.webp"
+        },
+        {
+          "name": "HBO",
+          "url": "/canais/hbo/",
+          "logo": "/src/images/thumb-channel/hbo.webp"
+        },
+        {
+          "name": "HBO 2",
+          "url": "/canais/hbo-2/",
+          "logo": "/src/images/thumb-channel/hbo-2.webp"
+        },
+        {
+          "name": "HBO Family",
+          "url": "/canais/hbo-family/",
+          "logo": "/src/images/thumb-channel/hbo-family.webp"
+        },
+        {
+          "name": "HBO Plus",
+          "url": "/canais/hbo-plus/",
+          "logo": "/src/images/thumb-channel/hbo-plus.webp"
+        },
+        {
+          "name": "HBO Signature",
+          "url": "/canais/hbo-signature/",
+          "logo": "/src/images/thumb-channel/hbo-signature.webp"
+        },
+        {
+          "name": "HBO Xtreme",
+          "url": "/canais/hbo-xtreme/",
+          "logo": "/src/images/thumb-channel/hbo-xtreme.webp"
+        },
+        {
+          "name": "HGTV",
+          "url": "/canais/hgtv/",
+          "logo": "/src/images/thumb-channel/hgtv.webp"
+        },
+        {
+          "name": "History 2",
+          "url": "/canais/history-2/",
+          "logo": "/src/images/thumb-channel/history-2.webp"
+        },
+        {
+          "name": "History",
+          "url": "/canais/history/",
+          "logo": "/src/images/thumb-channel/history.webp"
+        },
+        {
+          "name": "Star Channel",
+          "url": "/canais/star-channel/",
+          "logo": "/src/images/thumb-channel/star-channel.webp"
+        },
+        {
+          "name": "Multishow",
+          "url": "/canais/multishow/",
+          "logo": "/src/images/thumb-channel/multishow.webp"
+        },
+        {
+          "name": "National Geographic",
+          "url": "/canais/national-geographic/",
+          "logo": "/src/images/thumb-channel/national-geographic.webp"
+        },
+        {
+          "name": "Nick Jr",
+          "url": "/canais/nick-jr/",
+          "logo": "/src/images/thumb-channel/nick-jr.webp"
+        },
+        {
+          "name": "Nickelodeon",
+          "url": "/canais/nickelodeon/",
+          "logo": "/src/images/thumb-channel/nickelodeon.webp"
+        },
+        {
+          "name": "Space",
+          "url": "/canais/space/",
+          "logo": "/src/images/thumb-channel/space.webp"
+        },
+        {
+          "name": "Telecine Action",
+          "url": "/canais/telecine-action/",
+          "logo": "/src/images/thumb-channel/telecine-action.webp"
+        },
+        {
+          "name": "Telecine Cult",
+          "url": "/canais/telecine-cult/",
+          "logo": "/src/images/thumb-channel/telecine-cult.webp"
+        },
+        {
+          "name": "Telecine Fun",
+          "url": "/canais/telecine-fun/",
+          "logo": "/src/images/thumb-channel/telecine-fun.webp"
+        },
+        {
+          "name": "Telecine Pipoca",
+          "url": "/canais/telecine-pipoca/",
+          "logo": "/src/images/thumb-channel/telecine-pipoca.webp"
+        },
+        {
+          "name": "Telecine Premium",
+          "url": "/canais/telecine-premium/",
+          "logo": "/src/images/thumb-channel/telecine-premium.webp"
+        },
+        {
+          "name": "Telecine Touch",
+          "url": "/canais/telecine-touch/",
+          "logo": "/src/images/thumb-channel/telecine-touch.webp"
+        },
+        {
+          "name": "TNT",
+          "url": "/canais/tnt/",
+          "logo": "/src/images/thumb-channel/tnt.webp"
+        },
+        {
+          "name": "TNT Novelas",
+          "url": "/canais/tnt-novelas/",
+          "logo": "/src/images/thumb-channel/tnt-novelas.webp"
+        },
+        {
+          "name": "UFC Fight Pass",
+          "url": "/canais/ufc-fight-pass/",
+          "logo": "/src/images/thumb-channel/ufc-fight-pass.webp"
+        },
+        {
+          "name": "Universal TV",
+          "url": "/canais/universal-tv/",
+          "logo": "/src/images/thumb-channel/universal-tv.webp"
+        },
+        {
+          "name": "TNT Séries",
+          "url": "/canais/tnt-series/",
+          "logo": "/src/images/thumb-channel/tnt-series.webp"
+        },
+        {
+          "name": "VIva",
+          "url": "/canais/viva/",
+          "logo": "/src/images/thumb-channel/viva.webp"
         }
       ]
     }
@@ -158,6 +378,21 @@
           "name": "record news",
           "url": "/canais/record-news/",
           "logo": "/src/images/thumb-channel/record-news.webp"
+        },
+        {
+          "name": "CNN Brasil",
+          "url": "/canais/cnn-brasil/",
+          "logo": "/src/images/thumb-channel/cnn-brasil.webp"
+        },
+        {
+          "name": "Globo News",
+          "url": "/canais/globo-news/",
+          "logo": "/src/images/thumb-channel/globo-news.webp"
+        },
+        {
+          "name": "Jovem Pan News",
+          "url": "/canais/jovem-pan-news/",
+          "logo": "/src/images/thumb-channel/jovem-pan-news.webp"
         }
       ]
     }

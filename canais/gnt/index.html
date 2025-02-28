@@ -1,48 +1,20 @@
-import fetch from 'node-fetch';
-import dotenv from 'dotenv';
-import fs from 'fs/promises';
-import path from 'path';
-import { fileURLToPath } from 'url';
 
-dotenv.config();
-
-// Obter o diretório atual quando usando módulos ES
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-const channelsToGenerate = ['CNN Brasil', 'Globo News', 'FX', 'A&E', 'Cinemax', 'Cinecanal', 'Adult Swim', 'H&H Discovery', 'Discovery Kids', 'Discovery Theather', 'Discovery Science', 'Discovery World', 'Discovery ID', 'Discovery Turbo', 'Gloob', 'Gloobinho', 'GNT', 'HBO', 'HBO 2', 'HBO Family', 'HBO Plus', 'HBO Signature', 'HBO Xtreme', 'HGTV', 'History 2', 'History', 'Jovem Pan News', 'Star Channel', 'Multishow', 'National Geographic', 'Nick Jr', 'Nickelodeon', 'Space', 'Telecine Action', 'Telecine Cult', 'Telecine Fun', 'Telecine Pipoca', 'Telecine Premium', 'Telecine Touch', 'TNT', 'TNT Novelas', 'UFC Fight Pass', 'Universal TV', 'TNT Séries','VIva', 'TV Cultura', 'RedeTV'];
-const listOfTexts = [];
-
-// Função para gerar as páginas HTML
-async function generatePages() {
-    for (const channel of channelsToGenerate) {
-        const prompt = `Faça um texto de 1 parágrafo sobre o canal de TV ${channel}, com a palavra-chave: assistir ${channel} ao vivo`;
-
-        // Obtendo a resposta da API
-        const text = await getChatResponse(prompt);
-        listOfTexts.push(text);
-
-        // Criando o diretório para o canal
-        const channelDir = path.join(__dirname, 'canais', channel.toLowerCase().replace(/\s+/g, "-").normalize('NFD').replace(/[\u0300-\u036f]/g, ''));
-        await fs.mkdir(channelDir, { recursive: true });
-
-        // Conteúdo do arquivo HTML
-        const htmlContent = `
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Assista o canal de tv ${channel} ao vivo e de forma totalmente gratuita!">
-    <link rel="canonical" href="/canais/${channel.toLowerCase().replace(/\s+/g, "-").normalize('NFD').replace(/[\u0300-\u036f]/g, '')}">
-    <meta property="og:title" content="${channel} ao vivo" />
-    <meta property="og:description" content="Assista o canal de tv ${channel} ao vivo e de forma totalmente gratuita!" />
+    <meta name="description" content="Assista o canal de tv GNT ao vivo e de forma totalmente gratuita!">
+    <link rel="canonical" href="/canais/gnt">
+    <meta property="og:title" content="GNT ao vivo" />
+    <meta property="og:description" content="Assista o canal de tv GNT ao vivo e de forma totalmente gratuita!" />
     <meta property="og:type" content="article" />
     <link rel="stylesheet" href="/src/styles/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="/src/images/playtv-logo.png" type="image/png">
     <script type="module" src="/src/javascript/codes.js" defer></script>
-    <title>${channel} ao vivo</title>
+    <title>GNT ao vivo</title>
 </head>
 <body>
     <header>
@@ -96,15 +68,15 @@ async function generatePages() {
     </header>
     <main>
         <article class="channel-post">
-            <h1 data-channel="${channel}" id="title-channel">Assistir ${channel} ao vivo grátis</h1>
+            <h1 data-channel="GNT" id="title-channel">Assistir GNT ao vivo grátis</h1>
             <div id="screen-video">
                 <div id="loading"><span>CARREGANDO PLAYER...</span></div>
                 <iframe src="" allowfullscreen allow="encrypted-media" frameborder="0"></iframe>
                 <div id="btn-sinals"></div>
             </div>
             <div id="text-post">
-                <img src="/src/images/thumb-channel/${channel.toLowerCase().replace(/\s+/g, "-").normalize('NFD').replace(/[\u0300-\u036f]/g, '')}.webp" alt="logo ${channel.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')}" class="logo-channel">
-                <p>${text}</p>
+                <img src="/src/images/thumb-channel/gnt.webp" alt="logo gnt" class="logo-channel">
+                <p>O GNT é um canal de televisão por assinatura muito popular no Brasil, conhecido por sua diversificada programação que engloba temas como comportamento, gastronomia, moda, documentários e séries. Uma atenção especial deve ser dada à possibilidade de assistir GNT ao vivo por meio de plataformas de streaming, como o aplicativo Globosat Play. Isso permite que o público não só se mantenha atualizado com os episódios recentes de seu programa favorito, mas também tenha acesso a episódios anteriores e conteúdos exclusivos onde quer que estejam, a qualquer hora do dia.</p>
             </div>
         </article>
     </main>
@@ -154,33 +126,4 @@ async function generatePages() {
     </script>
 </body>
 </html>
-        `;
-
-        // Salvando o arquivo HTML
-        const filePath = path.join(channelDir, 'index.html');
-        await fs.writeFile(filePath, htmlContent, 'utf8');
-        console.log(`Página do canal ${channel} criada em ${filePath}`);
-    }
-}
-
-// Função para obter a resposta da API OpenAI
-async function getChatResponse(prompt) {
-    const response = await fetch("https://api.openai.com/v1/chat/completions", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-        },
-        body: JSON.stringify({
-            model: "gpt-4",
-            messages: [{ role: "user", content: prompt }],
-            max_tokens: 200,
-        }),
-    });
-
-    const data = await response.json();
-    return data.choices[0].message.content;
-}
-
-// Rodando a função principal
-generatePages().catch(error => console.error('Erro ao gerar páginas:', error));
+        

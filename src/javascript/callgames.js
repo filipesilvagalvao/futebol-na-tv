@@ -34,11 +34,11 @@ export function madeGames() {
             {
                   channel: 'A&E',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=a&e',
-                        'https://embedcanaistv.com/ae/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=a&e',
+                        'https://reidoscanais.tv/embed/?id=aee',
+                        'https://embedcanaistv.com/aee/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=aie',
                         'https://embedtv-0.icu/ae_hd',
-                        'https://playertv.net/e/?v=a&e'
+                        'https://playertv.net/e/?v=ae'
                   ]
             },
             {
@@ -47,8 +47,7 @@ export function madeGames() {
                         'https://reidoscanais.tv/embed/?id=cinemax',
                         'https://embedcanaistv.com/cinemax/',
                         '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=cinemax',
-                        'https://embedtv-0.icu/cinemax_hd',
-                        'https://playertv.net/e/?v=cinemax'
+                        'https://embedtv-0.icu/cinemax_hd'
                   ]
             },
             {
@@ -58,87 +57,88 @@ export function madeGames() {
                         'https://embedcanaistv.com/cinecanal/',
                         '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=Cinecanal',
                         'https://embedtv-0.icu/cinecanal_hd',
-                        'https://playertv.net/e/?v=cinecanal'
+                        'https://playertv.net/e/?v=cineCanal'
                   ]
             },
             {
                   channel: 'Adult Swim',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=adult-swim',
+                        'https://reidoscanais.tv/embed/?id=adultswim',
                         'https://embedcanaistv.com/adultswim/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=adult-swim',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=adultswim',
                         'https://embedtv-0.icu/adultswim',
-                        'https://playertv.net/e/?v=adult-swim'
+                        'https://playertv.net/e/?v=adult'
                   ]
             },
             {
                   channel: 'H&H Discovery',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=h&h-discovery',
-                        'https://embedcanaistv.com/hhdiscovery/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=h&h-discovery',
+                        'https://embedmax.site/tvl/discoveryheh.php',
+                        'https://reidoscanais.tv/embed/?id=discoveryheh',
+                        'https://embedcanaistv.com/discoveryhh/',
+                        '"//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=discoveryhomeihealth',
                         'https://embedtv-0.icu/discovery_h&h_hd',
-                        'https://playertv.net/e/?v=h&h-discovery'
+                        'https://playertv.net/e/?v=hh'
                   ]
             },
             {
                   channel: 'Discovery Kids',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=discovery-kids',
+                        'https://reidoscanais.tv/embed/?id=discoverykids',
                         'https://embedcanaistv.com/discoverykids/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=discovery-kids',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=discoverykids',
                         'https://embedtv-0.icu/discovery_kids_hd',
-                        'https://playertv.net/e/?v=discovery-kids'
+                        'https://playertv.net/e/?v=kids'
                   ]
             },
             {
-                  channel: 'Discovery Theather',
+                  channel: 'Discovery Theater',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=discovery-theather',
-                        'https://embedcanaistv.com/discoverytheather/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=discovery-theather',
+                        'https://reidoscanais.tv/embed/?id=discoverytheater',
+                        'https://embedcanaistv.com/discoverytheater/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=discoverytheater',
                         'https://embedtv-0.icu/discovery_theater_hd',
-                        'https://playertv.net/e/?v=discovery-theather'
+                        'https://playertv.net/e/?v=theater'
                   ]
             },
             {
                   channel: 'Discovery Science',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=discovery-science',
+                        'https://reidoscanais.tv/embed/?id=discoveryscience',
                         'https://embedcanaistv.com/discoveryscience/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=discovery-science',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=discoverysience',
                         'https://embedtv-0.icu/discoveryscience',
-                        'https://playertv.net/e/?v=discovery-science'
+                        'https://playertv.net/e/?v=science'
                   ]
             },
             {
                   channel: 'Discovery World',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=discovery-world',
+                        'https://reidoscanais.tv/embed/?id=discoveryworld',
                         'https://embedcanaistv.com/discoveryworld/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=discovery-world',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=discoveryworld',
                         'https://embedtv-0.icu/discovery_world_hd',
-                        'https://playertv.net/e/?v=discovery-world'
+                        'https://playertv.net/e/?v=world'
                   ]
             },
             {
                   channel: 'Discovery ID',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=discovery-id',
+                        'https://reidoscanais.tv/embed/?id=discoveryid',
                         'https://embedcanaistv.com/discoveryid/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=discovery-id',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=investigacaodiscovery',
                         'https://embedtv-0.icu/discoveryid',
-                        'https://playertv.net/e/?v=discovery-id'
+                        'https://playertv.net/e/?v=id'
                   ]
             },
             {
                   channel: 'Discovery Turbo',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=discovery-turbo',
+                        'https://reidoscanais.tv/embed/?id=discoveryturbo',
                         'https://embedcanaistv.com/discoveryturbo/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=discovery-turbo',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=discoveryturbo',
                         'https://embedtv-0.icu/discovery_turbo_hd',
-                        'https://playertv.net/e/?v=discovery-turbo'
+                        'https://playertv.net/e/?v=turbo'
                   ]
             },
             {
@@ -459,7 +459,7 @@ export function madeGames() {
                   ]
             },
             {
-                  channel: 'RedeTV!',
+                  channel: 'RedeTV',
                   links: [
                         'https://reidoscanais.tv/embed/?id=redetv',
                         'https://embedcanaistv.com/redetv/',
@@ -561,6 +561,9 @@ export function madeGames() {
                   links: [
                         'https://embedmax.site/tvl/espn1.php',
                         'https://reidoscanais.tv/embed/?id=espn',
+                        'https://embedcanaistv.com/espn/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=espn',
+                        'https://embedtv-0.icu/espn',
                         'https://playertv.net/e/?v=espn'
                   ]
             },
@@ -569,6 +572,9 @@ export function madeGames() {
                   links: [
                         'https://embedmax.site/tvl/espn2.php',
                         'https://reidoscanais.tv/embed/?id=espn2',
+                        'https://embedcanaistv.com/espn2/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=espn2',
+                        'https://embedtv-0.icu/espn2',
                         'https://playertv.net/e/?v=espn2'
                   ]
             },
@@ -577,6 +583,9 @@ export function madeGames() {
                   links: [
                         'https://embedmax.site/tvl/espn3.php',
                         'https://reidoscanais.tv/embed/?id=espn3',
+                        'https://embedcanaistv.com/espn3/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=espn3',
+                        'https://embedtv-0.icu/espn3',
                         'https://playertv.net/e/?v=espn3'
                   ]
             },
@@ -585,6 +594,9 @@ export function madeGames() {
                   links: [
                         'https://embedmax.site/tvl/espn4.php',
                         'https://reidoscanais.tv/embed/?id=espn4',
+                        'https://embedcanaistv.com/espn4/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=espn4',
+                        'https://embedtv-0.icu/espn4',
                         'https://playertv.net/e/?v=espn4'
                   ]
             },
@@ -593,6 +605,9 @@ export function madeGames() {
                   links: [
                         'https://embedmax.site/tvl/bandsports.php',
                         'https://reidoscanais.tv/embed/?id=bandsports',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=bandsports',
+                        'https://embedcanaistv.com/bandsports/',
+                        'https://embedtv-0.icu/bandsports',
                         'https://playertv.net/e/?v=bandSports'
                   ]
             },
@@ -609,6 +624,9 @@ export function madeGames() {
                   links: [
                         'https://embedmax.site/tvl/premiere1.php',
                         'https://reidoscanais.tv/embed/?id=premiere',
+                        'https://embedcanaistv.com/premiereclubes/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=premiereclubes',
+                        'https://embedtv-0.icu/premiere',
                         'https://playertv.net/e/?v=premiere'
                   ]
             },
@@ -617,6 +635,9 @@ export function madeGames() {
                   links: [
                         'https://embedmax.site/tvl/premiere2.php',
                         'https://reidoscanais.tv/embed/?id=premiere2',
+                        'https://embedcanaistv.com/premiere2/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=premiere2',
+                        'https://embedtv-0.icu/premiere2',
                         'https://playertv.net/e/?v=premiere2'
                   ]
             },
@@ -625,6 +646,9 @@ export function madeGames() {
                   links: [
                         'https://embedmax.site/tvl/premiere3.php',
                         'https://reidoscanais.tv/embed/?id=premiere3',
+                        'https://embedcanaistv.com/premiere3/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=premiere3',
+                        'https://embedtv-0.icu/premiere3',
                         'https://playertv.net/e/?v=premiere3'
                   ]
             },
@@ -633,6 +657,9 @@ export function madeGames() {
                   links: [
                         'https://embedmax.site/tvl/premiere4.php',
                         'https://reidoscanais.tv/embed/?id=premiere4',
+                        'https://embedcanaistv.com/premiere4/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=premiere4',
+                        'https://embedtv-0.icu/premiere4',
                         'https://playertv.net/e/?v=premiere4'
                   ]
             },
@@ -640,15 +667,25 @@ export function madeGames() {
                   channel: 'CAZÉ TV',
                   links: [
                         'https://reidoscanais.tv/embed/?id=cazetv',
+                        'https://embedcanaistv.com/cazetv/',
+                        'https://embedtv-0.icu/caze1',
+                        'https://playertv.net/e/?v=caze1',
                         'https://reidoscanais.tv/embed/?id=cazetv2',
-                        'https://reidoscanais.tv/embed/?id=cazetv3'
+                        'https://embedtv-0.icu/caze2',
+                        'https://playertv.net/e/?v=caze2',
+                        'https://reidoscanais.tv/embed/?id=cazetv3',
+                        'https://embedtv-0.icu/caze3',
+                        'https://playertv.net/e/?v=caze3'
                   ]
             },
             {
-                  channel: 'SPORTV',
+                  channel: 'SPORTV 1',
                   links: [
                         'https://embedmax.site/tvl/sportv1.php',
                         'https://reidoscanais.tv/embed/?id=sportv',
+                        'https://embedcanaistv.com/sportv/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=sportv1',
+                        'https://embedtv-0.icu/sportv',
                         'https://playertv.net/e/?v=sportv'
                   ]
             },
@@ -657,6 +694,9 @@ export function madeGames() {
                   links: [
                         'https://embedmax.site/tvl/sportv2.php',
                         'https://reidoscanais.tv/embed/?id=sportv2',
+                        'https://embedcanaistv.com/sportv2/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=sportv2',
+                        'https://embedtv-0.icu/sportv2',
                         'https://playertv.net/e/?v=sportv2'
                   ]
             },
@@ -665,6 +705,9 @@ export function madeGames() {
                   links: [
                         'https://embedmax.site/tvl/sportv3.php',
                         'https://reidoscanais.tv/embed/?id=sportv3',
+                        'https://embedcanaistv.com/sportv3/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=sportv3',
+                        'https://embedtv-0.icu/sportv3',
                         'https://playertv.net/e/?v=sportv3'
                   ]
             },
@@ -682,6 +725,90 @@ export function madeGames() {
                         'https://embedmax.site/tvl/recordSP.php',
                         'https://reidoscanais.tv/embed/?id=recordsp',
                         'https://playertv.net/e/?v=recordSP'
+                  ]
+            },
+            {
+                  channel: 'TV Brasil',
+                  links: [
+                        'https://embedmax.site/tvl/tvbrasil.php',
+                        'https://reidoscanais.tv/embed/?id=tvbrasil'
+                  ]
+            },
+            {
+                  channel: 'Combate',
+                  links: [
+                        'https://embedmax.site/tvl/combate.php',
+                        'https://reidoscanais.tv/embed/?id=combate',
+                        'https://embedcanaistv.com/combate/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=combate',
+                        'https://embedtv-0.icu/combate',
+                        'https://playertv.net/e/?v=combate'
+                  ]
+            },
+            {
+                  channel: 'AXN',
+                  links: [
+                        'https://embedmax.site/tvl/axn.php',
+                        'https://reidoscanais.tv/embed/?id=axn',
+                        'https://embedcanaistv.com/axn/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=axn',
+                        'https://embedtv-0.icu/axn',
+                        'https://playertv.net/e/?v=axn'
+                  ]
+            },
+            {
+                  channel: 'Cartoon Network',
+                  links: [
+                        'https://embedmax.site/tvl/cartoonnetwork.php',
+                        'https://reidoscanais.tv/embed/?id=cartoonnetwork',
+                        'https://embedcanaistv.com/cartoonnetwork/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=cartoon',
+                        'https://embedtv-0.icu/cartoonnetworkn',
+                        'https://playertv.net/e/?v=cartoon'
+                  ]
+            },
+            {
+                  channel: 'Discovery Channel',
+                  links: [
+                        'https://embedmax.site/tvl/discoverychannel.php',
+                        'https://reidoscanais.tv/embed/?id=discoverychannel',
+                        'https://embedcanaistv.com/discoverychannel/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=discovery',
+                        'https://embedtv-0.icu/discoverychannel',
+                        'https://playertv.net/e/?v=discovery'
+                  ]
+            },
+            {
+                  channel: 'Disney Channel',
+                  links: [
+                        'https://embedmax.site/tvl/disneychannel.php',
+                        'https://reidoscanais.tv/embed/?id=disneychannel',
+                        'https://embedcanaistv.com/disneychannel/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=disney',
+                        'https://embedtv-0.icu/discoverychannel',
+                        'https://playertv.net/e/?v=disney'
+                  ]
+            },
+            {
+                  channel: 'Megapix',
+                  links: [
+                        'https://embedmax.site/tvl/megapix.php',
+                        'https://reidoscanais.tv/embed/?id=megapix',
+                        'https://embedcanaistv.com/megapix/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=megapix',
+                        'https://embedtv-0.icu/megapix',
+                        'https://playertv.net/e/?v=megapix'
+                  ]
+            },
+            {
+                  channel: 'warnertv',
+                  links: [
+                        'https://embedmax.site/tvl/warnertv.php',
+                        'https://reidoscanais.tv/embed/?id=warnertv',
+                        'https://embedcanaistv.com/warner/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=warner',
+                        'https://embedtv-0.icu/warnerchannel',
+                        'https://playertv.net/e/?v=warner'
                   ]
             }
       ]
@@ -718,7 +845,7 @@ export function madeGames() {
                   e.channels.forEach((canal) => {
 
                         // Verifica se o canal existe na lista de channels
-                        const foundChannel = channels.find(c => c.channel === canal);
+                        const foundChannel = channels.find(c => c.channel.toUpperCase() === canal.toUpperCase());
                         if (foundChannel) {
                               linkPlayers.push(...foundChannel.links); // Adiciona os links ao linkPlayers
                               hour = e.time

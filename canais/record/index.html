@@ -82,7 +82,7 @@
                 <div id="btn-sinals"></div>
             </div>
             <div id="text-post">
-                <img src="/src/images/thumb-channel/recordtv.webp" alt="logo record" class="logo-channel">
+                <img src="/src/images/thumb-channel/record.webp" alt="logo record" class="logo-channel">
                 <p>A TV RECORD é um dos mais prestigiosos canais de televisão do Brasil que disponibiliza uma
                     programação diversificada e atraente, atendendo o gosto de um público variado. Sejam notícias
                     atualizadas, programas de entretenimento, reality shows, novelas, séries e até mesmo transmissões
@@ -117,7 +117,7 @@
             } else {
                 clearInterval(wait);
                 channels.forEach((canal, index) => {
-                    if (canal.channel === nameOfChannel) {
+                    if (canal.channel.toUpperCase() === nameOfChannel) {
                         canal.links.forEach((e, i) => {
                             const button = document.createElement('button');
                             button.innerText = 'Sinal ' + (i + 1);

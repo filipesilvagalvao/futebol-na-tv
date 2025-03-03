@@ -34,9 +34,9 @@
           "logo": "/src/images/thumb-channel/tv-cultura.webp"
         },
         {
-          "name": "RedeTV!",
-          "url": "/canais/redetv!/",
-          "logo": "/src/images/thumb-channel/redetv!.webp"
+          "name": "RedeTV",
+          "url": "/canais/redetv/",
+          "logo": "/src/images/thumb-channel/redetv.webp"
         }
       ]
     }

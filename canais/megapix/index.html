@@ -116,7 +116,7 @@
             } else {
                 clearInterval(wait);
                 channels.forEach((canal, index) => {
-                    if (canal.channel === nameOfChannel) {
+                    if (canal.channel.toUpperCase() === nameOfChannel) {
                         canal.links.forEach((e, i) => {
                             const button = document.createElement('button');
                             button.innerText = 'Sinal ' + (i + 1);

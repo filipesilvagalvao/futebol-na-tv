@@ -68,14 +68,14 @@
     </header>
     <main>
         <article class="channel-post">
-            <h1 data-channel="Discovery Theather" id="title-channel">Assistir Discovery Theather ao vivo grátis</h1>
+            <h1 data-channel="Discovery Theater" id="title-channel">Assistir Discovery Theater ao vivo grátis</h1>
             <div id="screen-video">
                 <div id="loading"><span>CARREGANDO PLAYER...</span></div>
                 <iframe src="" allowfullscreen allow="encrypted-media" frameborder="0"></iframe>
                 <div id="btn-sinals"></div>
             </div>
             <div id="text-post">
-                <img src="/src/images/thumb-channel/discovery-theather.webp" alt="logo discovery theather" class="logo-channel">
+                <img src="/src/images/thumb-channel/discovery-theater.webp" alt="logo discovery theater" class="logo-channel">
                 <p>O canal de TV Discovery Theater é uma plataforma notável por sua programação diversificada e de qualidade, que proporciona uma experiência de aprendizado e entretenimento incrível para os espectadores. Seja em alta definição (HD) ou qualidade standard (SD), você pode assistir Discovery Theater ao vivo de sua casa, aumentando seu horizonte de conhecimento com documentários perspicazes, programas de viagens, atrações científicas, de natureza, aventura, cultura e muito mais. Se você tem uma inclinação para aprender enquanto se entretém, assistir Discovery Theater ao vivo certamente tornará suas noites mais informativas e agradáveis.</p>
             </div>
         </article>
@@ -104,7 +104,7 @@
             } else {
                 clearInterval(wait);
                 channels.forEach((canal, index) => {
-                    if (canal.channel === nameOfChannel) {
+                    if (canal.channel.toUpperCase() === nameOfChannel) {
                         canal.links.forEach((e, i) => {
                             const button = document.createElement('button');
                             button.innerText = 'Sinal ' + (i + 1);

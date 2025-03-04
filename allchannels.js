@@ -44,7 +44,15 @@ allContents.forEach((e, i) => {
 // Função para gerar o JSON
 const generateJSON = () => {
     const jsonContent = JSON.stringify(allContents, null, 2);
-    const jsonPath = path.join('allContents.json');
+
+    // Verifica se a pasta 'data' existe, se não, cria a pasta
+    const dataDir = './data';
+    if (!fs.existsSync(dataDir)) {
+        fs.mkdirSync(dataDir);
+    }
+
+    // Caminho para o arquivo JSON dentro da pasta 'data'
+    const jsonPath = path.join(dataDir, 'allContents.json');
 
     fs.writeFile(jsonPath, jsonContent, 'utf8', (err) => {
         if (err) {
@@ -55,7 +63,8 @@ const generateJSON = () => {
     });
 };
 
-console.log(allContents)
+console.log(allContents);
+
 // Função para gerar o HTML de uma categoria
 const generateCategoryHTML = (category) => {
     const channelsHTML = category.channels.map((channel) => `

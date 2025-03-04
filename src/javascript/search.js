@@ -1,5 +1,5 @@
 export function searchChannel() {
-    const URL = '/allContents.json'
+    const URL = '/data/allContents.json'
 
     const btnSearch = document.querySelector('.btn-icon-content')
     const inputSearch = document.querySelector('.search-box input');

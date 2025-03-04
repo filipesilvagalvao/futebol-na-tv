@@ -835,7 +835,7 @@ export function madeGames() {
       const dataFormatada = `${dia}-${mes}-${ano}`;
 
       //json com dados puxados do futebolnatv.com
-      const URL = '/jogos.json'
+      const URL = '/data/jogos.json'
 
       async function callGames() {
             const resp = await fetch(URL)

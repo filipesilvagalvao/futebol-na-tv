@@ -60,8 +60,14 @@ async function scrap() {
             return infoGames;
         });
 
-        // Escreve o arquivo JSON no diretório atual
-        fs.writeFileSync('jogos.json', JSON.stringify(result, null, 2));
+        // Verifica se a pasta 'data' existe, se não, cria a pasta
+        const dataDir = './data';
+        if (!fs.existsSync(dataDir)) {
+            fs.mkdirSync(dataDir);
+        }
+
+        // Escreve o arquivo JSON dentro da pasta 'data'
+        fs.writeFileSync(path.join(dataDir, 'jogos.json'), JSON.stringify(result, null, 2));
     } catch (error) {
         console.error('Erro ao fazer scraping:', error);
     } finally {
@@ -87,7 +93,7 @@ const dataFormatada = `${dia}-${mes}-${ano}`;
 async function generateHTML() {
     try {
         // Lê o arquivo JSON
-        const data = fs.readFileSync('jogos.json', 'utf8');
+        const data = fs.readFileSync(path.join('./data', 'jogos.json'), 'utf8');
         const jogos = JSON.parse(data); // Converte para objeto
 
         // Cria um diretório para armazenar os arquivos HTML, caso não exista

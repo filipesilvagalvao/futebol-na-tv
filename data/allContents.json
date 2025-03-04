@@ -81,9 +81,9 @@
           "logo": "/src/images/thumb-channel/espn-4.webp"
         },
         {
-          "name": "premiere clubes",
-          "url": "/canais/premiere-clubes/",
-          "logo": "/src/images/thumb-channel/premiere-clubes.webp"
+          "name": "premiere",
+          "url": "/canais/premiere/",
+          "logo": "/src/images/thumb-channel/premiere.webp"
         },
         {
           "name": "premiere 2",
@@ -188,9 +188,9 @@
           "logo": "/src/images/thumb-channel/discovery-kids.webp"
         },
         {
-          "name": "Discovery Theather",
-          "url": "/canais/discovery-theather/",
-          "logo": "/src/images/thumb-channel/discovery-theather.webp"
+          "name": "Discovery Theater",
+          "url": "/canais/discovery-theater/",
+          "logo": "/src/images/thumb-channel/discovery-theater.webp"
         },
         {
           "name": "Discovery Science",

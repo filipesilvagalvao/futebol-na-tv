@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /src/
+Disallow: /videos/
+Disallow: /programacao/
+
+Sitemap: https://jogosdehoje.live/sitemap_index.xml

@@ -4,21 +4,21 @@ export function madeGames() {
             {
                   channel: 'CNN Brasil',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=cnn-brasil',
+                        'https://reidoscanais.tv/embed/?id=cnnbrasil',
                         'https://embedcanaistv.com/cnnbrasil/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=cnn-brasil',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=cnnbrasil',
                         'https://embedtv-0.icu/cnnbrasil',
-                        'https://playertv.net/e/?v=cnn-brasil'
+                        'https://playertv.net/e/?v=cnn'
                   ]
             },
             {
                   channel: 'Globo News',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=globo-news',
+                        'https://reidoscanais.tv/embed/?id=globonews',
                         'https://embedcanaistv.com/globonews/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=globo-news',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=globonews',
                         'https://embedtv-0.icu/globonews',
-                        'https://playertv.net/e/?v=globo-news'
+                        'https://playertv.net/e/?v=globoNews'
                   ]
             },
             {
@@ -176,57 +176,51 @@ export function madeGames() {
                         'https://reidoscanais.tv/embed/?id=hbo',
                         'https://embedcanaistv.com/hbo/',
                         '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=hbo',
-                        'https://embedtv-0.icu/hbo_hd',
-                        'https://playertv.net/e/?v=hbo'
+                        'https://embedtv-0.icu/hbo_hd'
                   ]
             },
             {
                   channel: 'HBO 2',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=hbo-2',
+                        'https://reidoscanais.tv/embed/?id=hbo2',
                         'https://embedcanaistv.com/hbo2/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=hbo-2',
-                        'https://embedtv-0.icu/hbo_2',
-                        'https://playertv.net/e/?v=hbo-2'
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=hbo2',
+                        'https://embedtv-0.icu/hbo_2'
                   ]
             },
             {
                   channel: 'HBO Family',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=hbo-family',
+                        'https://reidoscanais.tv/embed/?id=hbofamily',
                         'https://embedcanaistv.com/hbofamily/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=hbo-family',
-                        'https://embedtv-0.icu/HBO_family',
-                        'https://playertv.net/e/?v=hbo-family'
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=hbofamily',
+                        'https://embedtv-0.icu/HBO_family'
                   ]
             },
             {
                   channel: 'HBO Plus',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=hbo-plus',
+                        'https://reidoscanais.tv/embed/?id=hboplus',
                         'https://embedcanaistv.com/hboplus/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=hbo-plus',
-                        'https://embedtv-0.icu/HBO_Plus',
-                        'https://playertv.net/e/?v=hbo-plus'
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=hboplus',
+                        'https://embedtv-0.icu/HBO_Plus'
                   ]
             },
             {
                   channel: 'HBO Signature',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=hbo-signature',
+                        'https://reidoscanais.tv/embed/?id=hbosignature',
                         'https://embedcanaistv.com/hbosignature/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=hbo-signature',
-                        'https://playertv.net/e/?v=hbo-signature'
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=hbosignature'
                   ]
             },
             {
                   channel: 'HBO Xtreme',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=hbo-xtreme',
+                        'https://reidoscanais.tv/embed/?id=hboxtreme',
                         'https://embedcanaistv.com/hboxtreme/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=hbo-xtreme',
-                        'https://embedtv-0.icu/Hbo_Xtreme',
-                        'https://playertv.net/e/?v=hbo-xtreme'
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=hboxtreme',
+                        'https://embedtv-0.icu/Hbo_Xtreme'
                   ]
             },
             {
@@ -242,11 +236,11 @@ export function madeGames() {
             {
                   channel: 'History 2',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=history-2',
+                        'https://reidoscanais.tv/embed/?id=history2',
                         'https://embedcanaistv.com/history2/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=history-2',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=history2',
                         'https://embedtv-0.icu/history_2_hd',
-                        'https://playertv.net/e/?v=history-2'
+                        'https://playertv.net/e/?v=h2'
                   ]
             },
             {
@@ -256,56 +250,54 @@ export function madeGames() {
                         'https://embedcanaistv.com/history/',
                         '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=history',
                         'https://embedtv-0.icu/history_hd',
-                        'https://playertv.net/e/?v=history'
+                        'https://playertv.net/e/?v=h1'
                   ]
             },
             {
                   channel: 'Jovem Pan News',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=jovem-pan-news',
-                        'https://embedcanaistv.com/jovempannews/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=jovem-pan-news',
-                        'https://playertv.net/e/?v=jovem-pan-news'
+                        'https://reidoscanais.tv/embed/?id=jpnews',
+                        'https://embedcanaistv.com/jovempannews/'
                   ]
             },
             {
                   channel: 'Star Channel',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=star-channel',
+                        'https://reidoscanais.tv/embed/?id=starchannel',
                         'https://embedcanaistv.com/starchannel/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=star-channel',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=starchannel',
                         'https://embedtv-0.icu/star_channel_hd',
-                        'https://playertv.net/e/?v=star-channel'
+                        'https://playertv.net/e/?v=star'
                   ]
             },
             {
                   channel: 'Multishow',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=multi-show',
+                        'https://reidoscanais.tv/embed/?id=multishow',
                         'https://embedcanaistv.com/multishow/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=multi-show',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=multishow',
                         'https://embedtv-0.icu/multishow_hd',
-                        'https://playertv.net/e/?v=multi-show'
+                        'https://playertv.net/e/?v=multishow'
                   ]
             },
             {
                   channel: 'National Geographic',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=national-geographic',
-                        'https://embedcanaistv.com/nationalgeographic/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=national-geographic',
+                        'https://reidoscanais.tv/embed/?id=nationalgeographic',
+                        'https://embedcanaistv.com/nationalgeografic/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=natgeo',
                         'https://embedtv-0.icu/nationalgeo',
-                        'https://playertv.net/e/?v=national-geographic'
+                        'https://playertv.net/e/?v=nat'
                   ]
             },
             {
                   channel: 'Nick Jr',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=nick-jr',
+                        'https://reidoscanais.tv/embed/?id=nickjr',
                         'https://embedcanaistv.com/nickjr/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=nick-jr',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=nickjr',
                         'https://embedtv-0.icu/nickjunior',
-                        'https://playertv.net/e/?v=nick-jr'
+                        'https://playertv.net/e/?v=nickjr'
                   ]
             },
             {
@@ -313,9 +305,9 @@ export function madeGames() {
                   links: [
                         'https://reidoscanais.tv/embed/?id=nickelodeon',
                         'https://embedcanaistv.com/nickelodeon/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=nickelodeon',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=nick',
                         'https://embedtv-0.icu/nickelodeon',
-                        'https://playertv.net/e/?v=nickelodeon'
+                        'https://playertv.net/e/?v=nick'
                   ]
             },
             {
@@ -331,61 +323,61 @@ export function madeGames() {
             {
                   channel: 'Telecine Action',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=telecine-action',
-                        'https://embedcanaistv.com/telecineaction/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=telecine-action',
+                        'https://reidoscanais.tv/embed/?id=telecineaction',
+                        'https://embedcanaistv.com/tcaction/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=telecineaction',
                         'https://embedtv-0.icu/Telecine_Action',
-                        'https://playertv.net/e/?v=telecine-action'
+                        'https://playertv.net/e/?v=tcAction'
                   ]
             },
             {
                   channel: 'Telecine Cult',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=telecine-cult',
-                        'https://embedcanaistv.com/telecinecult/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=telecine-cult',
+                        'https://reidoscanais.tv/embed/?id=telecinecult',
+                        'https://embedcanaistv.com/tccult/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=telecinecult',
                         'https://embedtv-0.icu/Telecine_Cult',
-                        'https://playertv.net/e/?v=telecine-cult'
+                        'https://playertv.net/e/?v=tcCult'
                   ]
             },
             {
                   channel: 'Telecine Fun',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=telecine-fun',
-                        'https://embedcanaistv.com/telecinefun/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=telecine-fun',
+                        'https://reidoscanais.tv/embed/?id=telecinefun',
+                        'https://embedcanaistv.com/tcfun/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=telecinefun',
                         'https://embedtv-0.icu/Telecine_Fun',
-                        'https://playertv.net/e/?v=telecine-fun'
+                        'https://playertv.net/e/?v=tcFun'
                   ]
             },
             {
                   channel: 'Telecine Pipoca',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=telecine-pipoca',
-                        'https://embedcanaistv.com/telecinepipoca/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=telecine-pipoca',
+                        'https://reidoscanais.tv/embed/?id=telecinepipoca',
+                        'https://embedcanaistv.com/tcpipoca/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=telecinepipoca',
                         'https://embedtv-0.icu/Telecine_Pipoca',
-                        'https://playertv.net/e/?v=telecine-pipoca'
+                        'https://playertv.net/e/?v=tcPipoca'
                   ]
             },
             {
                   channel: 'Telecine Premium',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=telecine-premium',
-                        'https://embedcanaistv.com/telecinepremium/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=telecine-premium',
+                        'https://reidoscanais.tv/embed/?id=telecinepremium',
+                        'https://embedcanaistv.com/tcpremium/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=telecinepremium',
                         'https://embedtv-0.icu/Telecine_Premium',
-                        'https://playertv.net/e/?v=telecine-premium'
+                        'https://playertv.net/e/?v=tcPremium'
                   ]
             },
             {
                   channel: 'Telecine Touch',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=telecine-touch',
-                        'https://embedcanaistv.com/telecinetouch/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=telecine-touch',
+                        'https://reidoscanais.tv/embed/?id=telecinetouch',
+                        'https://embedcanaistv.com/tctouch/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=telecinetouch',
                         'https://embedtv-0.icu/Telecine_Touch',
-                        'https://playertv.net/e/?v=telecine-touch'
+                        'https://playertv.net/e/?v=tcTouch'
                   ]
             },
             {
@@ -401,41 +393,39 @@ export function madeGames() {
             {
                   channel: 'TNT Novelas',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=tnt-novelas',
+                        'https://reidoscanais.tv/embed/?id=tntnovelas',
                         'https://embedcanaistv.com/tntnovelas/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=tnt-novelas',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=tntnovelas',
                         'https://embedtv-0.icu/tnt_novelas_hd',
-                        'https://playertv.net/e/?v=tnt-novelas'
+                        'https://playertv.net/e/?v=tntNovelas'
                   ]
             },
             {
                   channel: 'UFC Fight Pass',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=ufc-fight-pass',
+                        'https://reidoscanais.tv/embed/?id=ufcfightpass',
                         'https://embedcanaistv.com/ufcfightpass/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=ufc-fight-pass',
-                        'https://embedtv-0.icu/ufcfightpass',
-                        'https://playertv.net/e/?v=ufc-fight-pass'
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=ufcfightpass',
+                        'https://embedtv-0.icu/ufcfightpass'
                   ]
             },
             {
                   channel: 'Universal TV',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=universal-tv',
+                        'https://reidoscanais.tv/embed/?id=universaltv',
                         'https://embedcanaistv.com/universaltv/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=universal-tv',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=universal',
                         'https://embedtv-0.icu/universal_hd',
-                        'https://playertv.net/e/?v=universal-tv'
+                        'https://playertv.net/e/?v=universal'
                   ]
             },
             {
                   channel: 'TNT Séries',
                   links: [
-                        'https://reidoscanais.tv/embed/?id=tnt-series',
                         'https://embedcanaistv.com/tntseries/',
-                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=tnt-series',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=tntseries',
                         'https://embedtv-0.icu/tnt_series_hd',
-                        'https://playertv.net/e/?v=tnt-series'
+                        'https://playertv.net/e/?v=tntSeries'
                   ]
             },
             {
@@ -475,6 +465,16 @@ export function madeGames() {
                         '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=band',
                         'https://embedtv-0.icu/Band',
                         'https://playertv.net/e/?v=band'
+                  ]
+            },
+            {
+                  channel: 'Band News',
+                  links: [
+                        'https://reidoscanais.tv/embed/?id=bandnews',
+                        'https://embedcanaistv.com/bandnews/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=bandnews',
+                        'https://embedtv-0.icu/bandnews',
+                        'https://playertv.net/e/?v=bandNews'
                   ]
             },
             {
@@ -809,6 +809,16 @@ export function madeGames() {
                         '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=warner',
                         'https://embedtv-0.icu/warnerchannel',
                         'https://playertv.net/e/?v=warner'
+                  ]
+            },
+            {
+                  channel: 'Record News',
+                  links: [
+                        'https://reidoscanais.tv/embed/?id=recordnews',
+                        'https://embedcanaistv.com/recordnews/',
+                        '//%72%65%64%65%63%61%6E%61%69%73%74%76%2E%70%73/player3/ch.php?canal=recordnews',
+                        'https://embedtv-0.icu/recordnews',
+                        'https://playertv.net/e/?v=recordNews'
                   ]
             }
       ]
